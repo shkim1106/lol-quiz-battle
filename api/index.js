@@ -106,10 +106,10 @@ app.post('/api/game/start', async (req, res) => {
   room.players.forEach(p => { p.score = 0; p.lastDelta = 0; });
 
   await saveRoom(room);
-  await trigger(code, 'game_started', {});
 
-  // 1초 후 첫 문제 생성 (클라이언트가 화면 전환할 시간)
-  setTimeout(() => sendNextQuestion(code), 1200);
+  // game_started → 첫 문제를 순서대로 트리거 (setTimeout은 서버리스에서 동작 안 함)
+  await trigger(code, 'game_started', {});
+  await sendNextQuestion(code);
 
   res.json({ ok: true });
 });
