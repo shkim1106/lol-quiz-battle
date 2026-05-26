@@ -1,0 +1,6317 @@
+{
+  "1001": {
+    "name": "장화",
+    "plaintext": "이동 속도가 약간 증가합니다.",
+    "total_gold": 300,
+    "from": [],
+    "into": [
+      "유령 배회자",
+      "판금 장화",
+      "탐욕의 군화",
+      "광전사의 군화",
+      "신속의 장화",
+      "공생형 밑창",
+      "마법사의 신발",
+      "헤르메스의 발걸음",
+      "기동력의 장화",
+      "명석함의 아이오니아 장화"
+    ]
+  },
+  "1004": {
+    "name": "요정의 부적",
+    "plaintext": "마나 재생량이 약간 증가합니다.",
+    "total_gold": 200,
+    "from": [],
+    "into": [
+      "금지된 우상",
+      "축복의 성배",
+      "밴들유리 거울"
+    ]
+  },
+  "1006": {
+    "name": "원기 회복의 구슬",
+    "plaintext": "체력 재생량이 약간 증가합니다.",
+    "total_gold": 300,
+    "from": [],
+    "into": [
+      "기사의 맹세",
+      "망령의 두건",
+      "기사의 맹세",
+      "수정 팔 보호구"
+    ]
+  },
+  "1011": {
+    "name": "거인의 허리띠",
+    "plaintext": "체력이 대폭 증가합니다.",
+    "total_gold": 900,
+    "from": [
+      "루비 수정"
+    ],
+    "into": [
+      "악마의 포옹",
+      "강철심장",
+      "원형질 안전벨트",
+      "아트마의 심판",
+      "워모그의 갑옷",
+      "라일라이의 수정홀",
+      "혹한의 손길",
+      "란두인의 예언",
+      "혹한의 손길",
+      "거대한 히드라",
+      "해신 작쇼",
+      "화공 펑크 사슬검",
+      "광휘의 미덕",
+      "증오의 사슬"
+    ]
+  },
+  "1018": {
+    "name": "민첩성의 망토",
+    "plaintext": "치명타 확률이 증가합니다.",
+    "total_gold": 600,
+    "from": [],
+    "into": [
+      "파멸의식 고서",
+      "징수의 총",
+      "무한의 대검",
+      "열정의 검",
+      "절정의 화살",
+      "필멸자의 운명",
+      "아트마의 심판",
+      "정수 약탈자",
+      "과거 아이템",
+      "폭풍갈퀴",
+      "징수의 총"
+    ]
+  },
+  "1026": {
+    "name": "방출의 마법봉",
+    "plaintext": "주문력이 상당히 상승합니다.",
+    "total_gold": 850,
+    "from": [],
+    "into": [
+      "실체화 장비",
+      "리치베인",
+      "새벽심장",
+      "악마의 포옹",
+      "공허의 지팡이",
+      "모렐로노미콘",
+      "내셔의 이빨",
+      "황혼과 새벽",
+      "라일라이의 수정홀",
+      "악의",
+      "영겁의 지팡이",
+      "새벽심장",
+      "영겁의 지팡이"
+    ]
+  },
+  "1027": {
+    "name": "사파이어 수정",
+    "plaintext": "마나가 증가합니다.",
+    "total_gold": 300,
+    "from": [],
+    "into": [
+      "얼음 방패",
+      "사라진 양피지",
+      "억겁의 카탈리스트"
+    ]
+  },
+  "1028": {
+    "name": "루비 수정",
+    "plaintext": "체력이 증가합니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "망자의 갑옷",
+      "거인의 허리띠",
+      "태양불꽃 방패",
+      "땅굴 채굴기",
+      "미카엘의 축복",
+      "가시 갑옷",
+      "월석 재생기",
+      "구원",
+      "축복의 성배",
+      "기괴한 가면",
+      "망령의 두건",
+      "끝없는 절망",
+      "속삭이는 머리띠",
+      "속삭이는 머리띠",
+      "생명의 샘 펜던트",
+      "탐식의 망치",
+      "스테락의 도전",
+      "비상의 월갑",
+      "점화석",
+      "가시 갑옷",
+      "마법공학 로켓 벨트",
+      "쇼진의 창",
+      "수정 팔 보호구",
+      "억겁의 카탈리스트",
+      "대자연의 힘",
+      "흡수의 시선",
+      "은빛 여명",
+      "갈라진 하늘",
+      "바미의 불씨",
+      "얼어붙은 건틀릿"
+    ]
+  },
+  "1029": {
+    "name": "천 갑옷",
+    "plaintext": "방어력이 약간 증가합니다.",
+    "total_gold": 300,
+    "from": [],
+    "into": [
+      "부서진 팔목 보호대",
+      "추적자의 팔목 보호대",
+      "쇠사슬 조끼",
+      "지크의 융합",
+      "강철의 솔라리 펜던트",
+      "강철 인장",
+      "가고일 돌갑옷",
+      "판금 장화",
+      "얼음 방패",
+      "지크의 융합",
+      "밴들파이프",
+      "생명의 샘 펜던트",
+      "덤불 조끼",
+      "파수꾼의 갑옷",
+      "군단의 방패",
+      "강철의 솔라리 펜던트"
+    ]
+  },
+  "1031": {
+    "name": "쇠사슬 조끼",
+    "plaintext": "방어력이 대폭 증가합니다.",
+    "total_gold": 800,
+    "from": [
+      "천 갑옷"
+    ],
+    "into": [
+      "망자의 갑옷",
+      "태양불꽃 방패",
+      "개척자",
+      "기사의 맹세",
+      "가시 갑옷",
+      "끝없는 절망",
+      "개척자",
+      "가시 갑옷",
+      "기사의 맹세",
+      "해신 작쇼",
+      "얼어붙은 건틀릿"
+    ]
+  },
+  "1033": {
+    "name": "마법무효화의 망토",
+    "plaintext": "마법 저항력이 약간 증가합니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "음전자 망토",
+      "수은 장식띠",
+      "지크의 융합",
+      "강철의 솔라리 펜던트",
+      "가고일 돌갑옷",
+      "지크의 융합",
+      "저녁갑주",
+      "망령의 두건",
+      "밴들파이프",
+      "주문포식자",
+      "군단의 방패",
+      "헤르메스의 발걸음",
+      "강철의 솔라리 펜던트",
+      "신록의 장벽"
+    ]
+  },
+  "1035": {
+    "name": "잉걸불 칼",
+    "plaintext": "",
+    "total_gold": 350,
+    "from": [],
+    "into": []
+  },
+  "1036": {
+    "name": "롱소드",
+    "plaintext": "공격력이 약간 증가합니다.",
+    "total_gold": 350,
+    "from": [],
+    "into": [
+      "흡혈의 낫",
+      "생명선",
+      "기회",
+      "키르히아이스의 파편",
+      "강철 인장",
+      "땅굴 채굴기",
+      "티아맷",
+      "절정의 화살",
+      "콜필드의 전투 망치",
+      "끝없는 갈망",
+      "마나무네",
+      "요우무의 유령검",
+      "마나무네",
+      "마법광학 장치 C44",
+      "윤 탈 야생화살",
+      "최후의 속삭임",
+      "탐식의 망치",
+      "온기가 필요한 자의 도끼",
+      "주문포식자",
+      "꽁지깃",
+      "처형인의 대검",
+      "톱날 단검",
+      "벼락폭풍검",
+      "돌풍",
+      "월식"
+    ]
+  },
+  "1037": {
+    "name": "곡괭이",
+    "plaintext": "공격력이 상당히 증가합니다.",
+    "total_gold": 875,
+    "from": [],
+    "into": [
+      "징수의 총",
+      "칠흑의 양날 도끼",
+      "죽음의 무도",
+      "무한의 대검",
+      "몰락한 왕의 검",
+      "기회",
+      "야수화",
+      "끝없는 갈망",
+      "스태틱의 단검",
+      "독사의 송곳니",
+      "마법광학 장치 C44",
+      "스테락의 도전",
+      "피바라기",
+      "구인수의 격노검",
+      "선체파괴자",
+      "헤르메스의 시미터",
+      "쇼진의 창",
+      "강철가시 채찍",
+      "은빛 여명",
+      "불멸의 철갑궁",
+      "징수의 총",
+      "월식"
+    ]
+  },
+  "1038": {
+    "name": "B.F. 대검",
+    "plaintext": "공격력이 대폭 증가합니다.",
+    "total_gold": 1300,
+    "from": [],
+    "into": [
+      "무한의 대검",
+      "수호 천사",
+      "윤 탈 야생화살",
+      "피바라기",
+      "과거 아이템",
+      "폭풍갈퀴",
+      "황금 뒤집개",
+      "돌풍"
+    ]
+  },
+  "1039": {
+    "name": "빗발칼날",
+    "plaintext": "정글에서 마나 재생을 돕고 몬스터에게 피해를 입힙니다.",
+    "total_gold": 350,
+    "from": [],
+    "into": []
+  },
+  "1040": {
+    "name": "흑요석 검",
+    "plaintext": "",
+    "total_gold": 350,
+    "from": [],
+    "into": []
+  },
+  "1042": {
+    "name": "단검",
+    "plaintext": "공격 속도가 약간 증가합니다.",
+    "total_gold": 250,
+    "from": [],
+    "into": [
+      "곡궁",
+      "열정의 검",
+      "황혼과 새벽",
+      "광전사의 군화",
+      "유령 무희",
+      "온기가 필요한 자의 도끼",
+      "실험적 마공학판",
+      "신성의 검",
+      "정찰병의 새총",
+      "발걸음 분쇄기",
+      "나보리 명멸검",
+      "분노의 칼"
+    ]
+  },
+  "1043": {
+    "name": "곡궁",
+    "plaintext": "공격 속도가 대폭 증가합니다.",
+    "total_gold": 700,
+    "from": [
+      "단검"
+    ],
+    "into": [
+      "경계",
+      "몰락한 왕의 검",
+      "내셔의 이빨",
+      "크라켄 학살자",
+      "마법사의 최후",
+      "구인수의 격노검"
+    ]
+  },
+  "1052": {
+    "name": "증폭의 고서",
+    "plaintext": "주문력이 약간 상승합니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "에테르 환영",
+      "부서진 팔목 보호대",
+      "추적자의 팔목 보호대",
+      "마법공학 교류 발전기",
+      "꽃피는 새벽의 검",
+      "악마의 포옹",
+      "망각의 구",
+      "만년서리",
+      "제국의 명령",
+      "기괴한 가면",
+      "마법공학 총검",
+      "사라진 양피지",
+      "운명의 재",
+      "흐르는 물의 지팡이",
+      "악마의 마법서",
+      "라일라이의 수정홀",
+      "구인수의 격노검",
+      "역병의 보석",
+      "불타는 향로",
+      "지평선의 초점",
+      "신록의 장벽",
+      "흡수의 시선",
+      "밴들유리 거울",
+      "부서진 여왕의 왕관"
+    ]
+  },
+  "1053": {
+    "name": "흡혈의 낫",
+    "plaintext": "기본 공격 시 체력을 회복합니다.",
+    "total_gold": 900,
+    "from": [
+      "롱소드"
+    ],
+    "into": [
+      "몰락한 왕의 검",
+      "마법공학 총검",
+      "피바라기",
+      "굶주린 히드라",
+      "헤르메스의 시미터",
+      "황금 뒤집개"
+    ]
+  },
+  "1054": {
+    "name": "도란의 방패",
+    "plaintext": "방어에 특화된 시작 아이템입니다.",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1055": {
+    "name": "도란의 검",
+    "plaintext": "공격에 특화된 시작 아이템입니다.",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1056": {
+    "name": "도란의 반지",
+    "plaintext": "스킬 사용에 특화된 시작 아이템입니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "1057": {
+    "name": "음전자 망토",
+    "plaintext": "마법 저항력이 상당히 증가합니다.",
+    "total_gold": 850,
+    "from": [
+      "마법무효화의 망토"
+    ],
+    "into": [
+      "케이닉 루컨",
+      "심연의 가면",
+      "심연의 가면",
+      "마법사의 최후",
+      "해신 작쇼",
+      "대자연의 힘"
+    ]
+  },
+  "1058": {
+    "name": "쓸데없이 큰 지팡이",
+    "plaintext": "주문력이 대폭 상승합니다.",
+    "total_gold": 1200,
+    "from": [],
+    "into": [
+      "존야의 모래시계",
+      "그림자불꽃",
+      "라바돈의 죽음모자",
+      "밴시의 장막",
+      "죽음불꽃 손아귀",
+      "황금 뒤집개"
+    ]
+  },
+  "1082": {
+    "name": "암흑의 인장",
+    "plaintext": "주문력과 마나가 상승하며 적을 처치할 때마다 더욱 강력해집니다.",
+    "total_gold": 350,
+    "from": [],
+    "into": [
+      "메자이의 영혼약탈자"
+    ]
+  },
+  "1083": {
+    "name": "수확의 낫",
+    "plaintext": "피해를 입히고 적중 시 생명력을 흡수합니다. 미니언 처치 시 추가 골드를 얻습니다.",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1086": {
+    "name": "도란의 활",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "1090": {
+    "name": "퀘스트: 상단",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1091": {
+    "name": "퀘스트: 중단",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1092": {
+    "name": "퀘스트: 하단",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1093": {
+    "name": "퀘스트: 서포터",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1094": {
+    "name": "퀘스트: 정글",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1101": {
+    "name": "새끼 화염발톱",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1102": {
+    "name": "새끼 바람돌이",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1103": {
+    "name": "새끼 이끼쿵쿵이",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1104": {
+    "name": "전령의 눈",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1105": {
+    "name": "새끼 이끼쿵쿵이",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1106": {
+    "name": "새끼 바람돌이",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1107": {
+    "name": "새끼 화염발톱",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1111": {
+    "name": "자르반 1세의",
+    "plaintext": "",
+    "total_gold": 300,
+    "from": [],
+    "into": []
+  },
+  "1120": {
+    "name": "도란의 투구",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "1200": {
+    "name": "상단 공격로 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1201": {
+    "name": "중단 공격로 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1202": {
+    "name": "하단 공격로 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1203": {
+    "name": "서포터 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1204": {
+    "name": "정글 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1205": {
+    "name": "정글 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1206": {
+    "name": "중단 공격로 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1207": {
+    "name": "하단 공격로 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1208": {
+    "name": "서포터 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1209": {
+    "name": "정글 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1210": {
+    "name": "정글 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1211": {
+    "name": "정글 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1220": {
+    "name": "강력 순간이동 (상단 공격로 퀘스트 보상)",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1221": {
+    "name": "상단 공격로 퀘스트 보상",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1222": {
+    "name": "상단 공격로 퀘스트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "123430": {
+    "name": "파멸의식 고서",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "민첩성의 망토",
+      "에테르 환영",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "124011": {
+    "name": "꽃피는 새벽의 검",
+    "plaintext": "",
+    "total_gold": 2350,
+    "from": [
+      "금지된 우상",
+      "증폭의 고서",
+      "점화석"
+    ],
+    "into": []
+  },
+  "126697": {
+    "name": "오만",
+    "plaintext": "",
+    "total_gold": 2950,
+    "from": [
+      "톱날 단검",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "1500": {
+    "name": "관통 탄환",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1501": {
+    "name": "요새화",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1502": {
+    "name": "이중 갑옷",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1503": {
+    "name": "파수꾼의 눈",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1504": {
+    "name": "수호자",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1505": {
+    "name": "이중 갑옷",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1506": {
+    "name": "이중 갑옷",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1507": {
+    "name": "과충전",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1508": {
+    "name": "방탄 양말",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1509": {
+    "name": "체질",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1510": {
+    "name": "특이 체질",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1511": {
+    "name": "슈퍼 메크 방어구",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1512": {
+    "name": "슈퍼 메크 전력장",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1515": {
+    "name": "포탑 방패",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1516": {
+    "name": "구조물 현상금",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1517": {
+    "name": "구조물 현상금",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1518": {
+    "name": "구조물 현상금",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1519": {
+    "name": "구조물 현상금",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1520": {
+    "name": "과충전HA",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1521": {
+    "name": "요새화",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1522": {
+    "name": "포탑 강화",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1523": {
+    "name": "과충전",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "1524": {
+    "name": "과잉성장",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2001": {
+    "name": "귀환",
+    "plaintext": "",
+    "total_gold": 60,
+    "from": [],
+    "into": []
+  },
+  "2002": {
+    "name": "상급 귀환",
+    "plaintext": "",
+    "total_gold": 60,
+    "from": [],
+    "into": []
+  },
+  "2003": {
+    "name": "체력 물약",
+    "plaintext": "사용하면 일정 시간 동안 체력이 회복됩니다.",
+    "total_gold": 50,
+    "from": [],
+    "into": []
+  },
+  "2007": {
+    "name": "귀환 비활성화",
+    "plaintext": "",
+    "total_gold": 60,
+    "from": [],
+    "into": []
+  },
+  "2008": {
+    "name": "",
+    "plaintext": "",
+    "total_gold": 60,
+    "from": [],
+    "into": []
+  },
+  "2010": {
+    "name": "굳건한 의지의 완전한 비스킷",
+    "plaintext": "",
+    "total_gold": 50,
+    "from": [],
+    "into": []
+  },
+  "2015": {
+    "name": "키르히아이스의 파편",
+    "plaintext": "공격 속도가 늘어나고 충전식 마법 피해를 입힙니다.",
+    "total_gold": 700,
+    "from": [
+      "롱소드"
+    ],
+    "into": []
+  },
+  "2019": {
+    "name": "강철 인장",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [
+      "천 갑옷",
+      "롱소드",
+      "천 갑옷"
+    ],
+    "into": [
+      "죽음의 무도",
+      "라코어의 방패",
+      "수호 천사"
+    ]
+  },
+  "2020": {
+    "name": "야수화",
+    "plaintext": "",
+    "total_gold": 1337,
+    "from": [
+      "빛나는 티끌",
+      "곡괭이"
+    ],
+    "into": [
+      "불경한 히드라",
+      "요새파괴자",
+      "벼락폭풍검",
+      "원칙의 원형낫"
+    ]
+  },
+  "2021": {
+    "name": "땅굴 채굴기",
+    "plaintext": "",
+    "total_gold": 1150,
+    "from": [
+      "롱소드",
+      "루비 수정"
+    ],
+    "into": [
+      "지배자의 피갑옷",
+      "스테락의 도전",
+      "실험적 마공학판",
+      "밤의 끝자락",
+      "선체파괴자",
+      "쇼진의 창",
+      "거대한 히드라",
+      "갈라진 하늘"
+    ]
+  },
+  "2022": {
+    "name": "빛나는 티끌",
+    "plaintext": "",
+    "total_gold": 250,
+    "from": [],
+    "into": [
+      "야수화",
+      "얼음 방패",
+      "콜필드의 전투 망치",
+      "사라진 양피지",
+      "광휘의 검",
+      "점화석",
+      "악마의 마법서",
+      "명석함의 아이오니아 장화",
+      "밴들유리 거울",
+      "바미의 불씨"
+    ]
+  },
+  "2031": {
+    "name": "충전형 물약",
+    "plaintext": "점차 체력이 회복되며, 상점에 가면 다시 충전됩니다.",
+    "total_gold": 150,
+    "from": [],
+    "into": [
+      "부패 물약"
+    ]
+  },
+  "2033": {
+    "name": "부패 물약",
+    "plaintext": "체력과 마나가 일정 시간 동안 회복되고 전투 능력을 상승시킵니다. 상점에 가면 다시 충전됩니다.",
+    "total_gold": 500,
+    "from": [
+      "충전형 물약"
+    ],
+    "into": []
+  },
+  "2049": {
+    "name": "수호자의 부적",
+    "plaintext": "체력이 늘어나고 계속해서 투명 와드를 얻을 수 있습니다.",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2050": {
+    "name": "수호자의 장막",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2051": {
+    "name": "수호자의 뿔피리",
+    "plaintext": "탱커에게 특화된 시작 아이템입니다.",
+    "total_gold": 950,
+    "from": [],
+    "into": []
+  },
+  "2052": {
+    "name": "포로 간식",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2055": {
+    "name": "제어 와드",
+    "plaintext": "일정 지역 안의 와드와 투명 덫을 무력화시킵니다.",
+    "total_gold": 75,
+    "from": [],
+    "into": []
+  },
+  "2056": {
+    "name": "투명 와드",
+    "plaintext": "사용하면 잠시 동안 일정 지역을 볼 수 있습니다.",
+    "total_gold": 40,
+    "from": [],
+    "into": []
+  },
+  "2065": {
+    "name": "슈렐리아의 군가",
+    "plaintext": "사용하면 주변 아군의 속도가 빨라집니다.",
+    "total_gold": 2200,
+    "from": [
+      "에테르 환영",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "2138": {
+    "name": "강철의 영약",
+    "plaintext": "일시적으로 방어 관련 능력치를 높여줍니다. 아군이 뒤따라올 수 있는 자취를 남깁니다.",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2139": {
+    "name": "마법의 영약",
+    "plaintext": "일시적으로 주문력을 올려주며, 챔피언과 포탑에 대한 추가 피해량이 적용됩니다.",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2140": {
+    "name": "분노의 영약",
+    "plaintext": "일시적으로 공격력을 올려주며, 챔피언에게 물리 피해를 입히면 체력이 회복됩니다.",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2141": {
+    "name": "카파 주스",
+    "plaintext": "",
+    "total_gold": 300,
+    "from": [],
+    "into": []
+  },
+  "2142": {
+    "name": "힘의 주스",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2143": {
+    "name": "활력의 주스",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2144": {
+    "name": "가속의 주스",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "2145": {
+    "name": "행운의 주사위",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2146": {
+    "name": "향상된 행운의 주사위",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2147": {
+    "name": "증강 레벨",
+    "plaintext": "",
+    "total_gold": 1250,
+    "from": [],
+    "into": []
+  },
+  "2150": {
+    "name": "숙련의 영약",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2151": {
+    "name": "탐욕의 영약",
+    "plaintext": "",
+    "total_gold": 50,
+    "from": [],
+    "into": []
+  },
+  "2152": {
+    "name": "힘의 영약",
+    "plaintext": "",
+    "total_gold": 50,
+    "from": [],
+    "into": []
+  },
+  "2161": {
+    "name": "힘의 밴들 주스",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [],
+    "into": []
+  },
+  "2162": {
+    "name": "활력의 밴들 주스",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [],
+    "into": []
+  },
+  "2163": {
+    "name": "가속의 밴들 주스",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [],
+    "into": []
+  },
+  "220000": {
+    "name": "추가 능력치",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "220001": {
+    "name": "전설 전사 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220002": {
+    "name": "전설 원거리 딜러 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220003": {
+    "name": "전설 암살자 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220004": {
+    "name": "전설 마법사 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220005": {
+    "name": "전설 탱커 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220006": {
+    "name": "전설 서포터 아이템",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "220007": {
+    "name": "프리즘 아이템",
+    "plaintext": "",
+    "total_gold": 4000,
+    "from": [],
+    "into": []
+  },
+  "220008": {
+    "name": "모루 교환권",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "220009": {
+    "name": "골드 능력치 모루 교환권",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "220010": {
+    "name": "프리즘 능력치 모루 교환권",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "220011": {
+    "name": "용기 교환권",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "220012": {
+    "name": "파편검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "221011": {
+    "name": "거인의 허리띠",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "221026": {
+    "name": "방출의 마법봉",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "221031": {
+    "name": "쇠사슬 조끼",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "221038": {
+    "name": "B.F. 대검",
+    "plaintext": "",
+    "total_gold": 1300,
+    "from": [],
+    "into": []
+  },
+  "221043": {
+    "name": "곡궁",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "221053": {
+    "name": "흡혈의 낫",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "221057": {
+    "name": "음전자 망토",
+    "plaintext": "",
+    "total_gold": 450,
+    "from": [],
+    "into": []
+  },
+  "221058": {
+    "name": "쓸데없이 큰 지팡이",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "222022": {
+    "name": "빛나는 티끌",
+    "plaintext": "",
+    "total_gold": 250,
+    "from": [],
+    "into": []
+  },
+  "222051": {
+    "name": "수호자의 뿔피리",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "222065": {
+    "name": "슈렐리아의 군가",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222141": {
+    "name": "카파 주스",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "222502": {
+    "name": "끝없는 절망",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222503": {
+    "name": "어둠불꽃 횃불",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222504": {
+    "name": "케이닉 루컨",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222510": {
+    "name": "황혼과 새벽",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222512": {
+    "name": "악마사냥꾼의 화살",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222517": {
+    "name": "끝없는 갈망",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222522": {
+    "name": "실체화 장비",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222523": {
+    "name": "마법광학 장치 C44",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222524": {
+    "name": "밴들파이프",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222525": {
+    "name": "원형질 안전벨트",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222526": {
+    "name": "속삭이는 머리띠",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "222530": {
+    "name": "악곡의 왕관",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223001": {
+    "name": "저녁갑주",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223002": {
+    "name": "개척자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223003": {
+    "name": "대천사의 지팡이",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223004": {
+    "name": "마나무네",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223005": {
+    "name": "유령 배회자",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223006": {
+    "name": "광전사의 군화",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223008": {
+    "name": "탐욕의 군화",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223009": {
+    "name": "신속의 장화",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223011": {
+    "name": "화학공학 부패기",
+    "plaintext": "",
+    "total_gold": 1900,
+    "from": [
+      "망각의 구",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "223020": {
+    "name": "마법사의 신발",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223026": {
+    "name": "수호 천사",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223031": {
+    "name": "무한의 대검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223032": {
+    "name": "윤 탈 야생화살",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223033": {
+    "name": "필멸자의 운명",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223036": {
+    "name": "도미닉 경의 인사",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223039": {
+    "name": "아트마의 심판",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223040": {
+    "name": "대천사의 포옹",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223042": {
+    "name": "무라마나",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223046": {
+    "name": "유령 무희",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223047": {
+    "name": "판금 장화",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223050": {
+    "name": "지크의 융합",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223053": {
+    "name": "스테락의 도전",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223057": {
+    "name": "광휘의 검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223065": {
+    "name": "정령의 형상",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223067": {
+    "name": "점화석",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223068": {
+    "name": "태양불꽃 방패",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223069": {
+    "name": "공허의 불길",
+    "plaintext": "",
+    "total_gold": 6000,
+    "from": [],
+    "into": []
+  },
+  "223071": {
+    "name": "칠흑의 양날 도끼",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223072": {
+    "name": "피바라기",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223073": {
+    "name": "실험적 마공학판",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223074": {
+    "name": "굶주린 히드라",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223075": {
+    "name": "가시 갑옷",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223078": {
+    "name": "삼위일체",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223084": {
+    "name": "강철심장",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223085": {
+    "name": "루난의 허리케인",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223087": {
+    "name": "스태틱의 단검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223089": {
+    "name": "라바돈의 죽음모자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223091": {
+    "name": "마법사의 최후",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223094": {
+    "name": "고속 연사포",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223095": {
+    "name": "폭풍갈퀴",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223100": {
+    "name": "리치베인",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223102": {
+    "name": "밴시의 장막",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223105": {
+    "name": "군단의 방패",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223107": {
+    "name": "구원",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223109": {
+    "name": "기사의 맹세",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223110": {
+    "name": "얼어붙은 심장",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223111": {
+    "name": "헤르메스의 발걸음",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223112": {
+    "name": "수호자의 보주",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223115": {
+    "name": "내셔의 이빨",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223116": {
+    "name": "라일라이의 수정홀",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223118": {
+    "name": "악의",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223119": {
+    "name": "혹한의 손길",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223121": {
+    "name": "종말의 겨울",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223124": {
+    "name": "구인수의 격노검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223135": {
+    "name": "공허의 지팡이",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223137": {
+    "name": "무덤꽃",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223139": {
+    "name": "헤르메스의 시미터",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223142": {
+    "name": "요우무의 유령검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223143": {
+    "name": "란두인의 예언",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223146": {
+    "name": "마법공학 총검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223152": {
+    "name": "마법공학 로켓 벨트",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223153": {
+    "name": "몰락한 왕의 검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223156": {
+    "name": "맬모셔스의 아귀",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223157": {
+    "name": "존야의 모래시계",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223158": {
+    "name": "명석함의 아이오니아 장화",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223161": {
+    "name": "쇼진의 창",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223165": {
+    "name": "모렐로노미콘",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223172": {
+    "name": "서풍",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223177": {
+    "name": "수호자의 검",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223181": {
+    "name": "선체파괴자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223184": {
+    "name": "수호자의 망치",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223185": {
+    "name": "수호자의 단검",
+    "plaintext": "",
+    "total_gold": 500,
+    "from": [],
+    "into": []
+  },
+  "223190": {
+    "name": "강철의 솔라리 펜던트",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223193": {
+    "name": "가고일 돌갑옷",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223222": {
+    "name": "미카엘의 축복",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223302": {
+    "name": "경계",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223504": {
+    "name": "불타는 향로",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223508": {
+    "name": "정수 약탈자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223742": {
+    "name": "망자의 갑옷",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223748": {
+    "name": "거대한 히드라",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "223814": {
+    "name": "밤의 끝자락",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224004": {
+    "name": "망령 해적검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224005": {
+    "name": "제국의 명령",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224401": {
+    "name": "대자연의 힘",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224403": {
+    "name": "황금 뒤집개",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224628": {
+    "name": "지평선의 초점",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224629": {
+    "name": "우주의 추진력",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224633": {
+    "name": "균열 생성기",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224636": {
+    "name": "밤의 수확자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224637": {
+    "name": "악마의 포옹",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224644": {
+    "name": "부서진 여왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224645": {
+    "name": "그림자불꽃",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "224646": {
+    "name": "폭풍 쇄도",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226035": {
+    "name": "은빛 여명",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226333": {
+    "name": "죽음의 무도",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226609": {
+    "name": "화공 펑크 사슬검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226610": {
+    "name": "갈라진 하늘",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226616": {
+    "name": "흐르는 물의 지팡이",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226617": {
+    "name": "월석 재생기",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226620": {
+    "name": "헬리아의 메아리",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226621": {
+    "name": "새벽심장",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226630": {
+    "name": "선혈포식자",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "226631": {
+    "name": "발걸음 분쇄기",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226632": {
+    "name": "신성한 파괴자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226653": {
+    "name": "리안드리의 고뇌",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226655": {
+    "name": "루덴의 메아리",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226656": {
+    "name": "만년서리",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226657": {
+    "name": "영겁의 지팡이",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226660": {
+    "name": "바미의 불씨",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "226662": {
+    "name": "얼어붙은 건틀릿",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226664": {
+    "name": "공허한 광휘",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226665": {
+    "name": "해신 작쇼",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226667": {
+    "name": "광휘의 미덕",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226671": {
+    "name": "돌풍",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226672": {
+    "name": "크라켄 학살자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226673": {
+    "name": "불멸의 철갑궁",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226675": {
+    "name": "나보리 명멸검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226676": {
+    "name": "징수의 총",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226691": {
+    "name": "드락사르의 황혼검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226692": {
+    "name": "월식",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226693": {
+    "name": "자객의 발톱",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "226694": {
+    "name": "세릴다의 원한",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226695": {
+    "name": "독사의 송곳니",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226696": {
+    "name": "원칙의 원형낫",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226697": {
+    "name": "오만",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226698": {
+    "name": "불경한 히드라",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226699": {
+    "name": "벼락폭풍검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "226701": {
+    "name": "기회",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "228001": {
+    "name": "증오의 사슬",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "228002": {
+    "name": "우글렛의 마녀 모자",
+    "plaintext": "",
+    "total_gold": 6000,
+    "from": [],
+    "into": []
+  },
+  "228003": {
+    "name": "죽음의 검",
+    "plaintext": "",
+    "total_gold": 9000,
+    "from": [],
+    "into": []
+  },
+  "228004": {
+    "name": "적응형 투구",
+    "plaintext": "",
+    "total_gold": 6000,
+    "from": [],
+    "into": []
+  },
+  "228005": {
+    "name": "흑요석 양날 도끼",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [],
+    "into": []
+  },
+  "228006": {
+    "name": "핏빛 칼날",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [],
+    "into": []
+  },
+  "228008": {
+    "name": "룬 글레이브",
+    "plaintext": "",
+    "total_gold": 9000,
+    "from": [],
+    "into": []
+  },
+  "228009": {
+    "name": "다용도 도구",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "228020": {
+    "name": "심연의 가면",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "2403": {
+    "name": "미니언 해체분석기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "2420": {
+    "name": "추적자의 팔목 보호대",
+    "plaintext": "사용하면 아무런 행동도 취할 수 없는 대신 공격도 받지 않는 무적 상태가 됩니다.",
+    "total_gold": 1600,
+    "from": [
+      "증폭의 고서",
+      "천 갑옷",
+      "증폭의 고서"
+    ],
+    "into": [
+      "존야의 모래시계"
+    ]
+  },
+  "2421": {
+    "name": "부서진 팔목 보호대",
+    "plaintext": "초시계로 업그레이드할 수 있습니다.",
+    "total_gold": 1600,
+    "from": [
+      "증폭의 고서",
+      "천 갑옷",
+      "증폭의 고서"
+    ],
+    "into": [
+      "존야의 모래시계"
+    ]
+  },
+  "2422": {
+    "name": "약간 신비한 신발",
+    "plaintext": "",
+    "total_gold": 300,
+    "from": [],
+    "into": [
+      "광전사의 군화",
+      "판금 장화",
+      "마법사의 신발",
+      "명석함의 아이오니아 장화",
+      "헤르메스의 발걸음",
+      "기동력의 장화",
+      "신속의 장화",
+      "탐욕의 군화"
+    ]
+  },
+  "2501": {
+    "name": "지배자의 피갑옷",
+    "plaintext": "",
+    "total_gold": 3300,
+    "from": [
+      "땅굴 채굴기",
+      "땅굴 채굴기"
+    ],
+    "into": []
+  },
+  "2502": {
+    "name": "끝없는 절망",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "쇠사슬 조끼",
+      "점화석",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "2503": {
+    "name": "어둠불꽃 횃불",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "사라진 양피지",
+      "운명의 재"
+    ],
+    "into": []
+  },
+  "2504": {
+    "name": "케이닉 루컨",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "망령의 두건",
+      "음전자 망토"
+    ],
+    "into": []
+  },
+  "2508": {
+    "name": "운명의 재",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "증폭의 고서"
+    ],
+    "into": [
+      "어둠불꽃 횃불",
+      "리안드리의 고통"
+    ]
+  },
+  "2510": {
+    "name": "황혼과 새벽",
+    "plaintext": "",
+    "total_gold": 3100,
+    "from": [
+      "광휘의 검",
+      "방출의 마법봉",
+      "점화석",
+      "단검"
+    ],
+    "into": []
+  },
+  "2512": {
+    "name": "악마사냥꾼의 화살",
+    "plaintext": "",
+    "total_gold": 2650,
+    "from": [
+      "열정의 검",
+      "정찰병의 새총"
+    ],
+    "into": []
+  },
+  "2517": {
+    "name": "끝없는 갈망",
+    "plaintext": "",
+    "total_gold": 3100,
+    "from": [
+      "콜필드의 전투 망치",
+      "곡괭이",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "2520": {
+    "name": "요새파괴자",
+    "plaintext": "",
+    "total_gold": 3200,
+    "from": [
+      "야수화",
+      "톱날 단검"
+    ],
+    "into": []
+  },
+  "2522": {
+    "name": "실체화 장비",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "사라진 양피지",
+      "방출의 마법봉"
+    ],
+    "into": []
+  },
+  "2523": {
+    "name": "마법광학 장치 C44",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "곡괭이",
+      "절정의 화살",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "2524": {
+    "name": "밴들파이프",
+    "plaintext": "",
+    "total_gold": 2300,
+    "from": [
+      "점화석",
+      "천 갑옷",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "2525": {
+    "name": "원형질 안전벨트",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [
+      "점화석",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "2526": {
+    "name": "속삭이는 머리띠",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [
+      "금지된 우상",
+      "루비 수정",
+      "여신의 눈물"
+    ],
+    "into": [
+      "악곡의 왕관"
+    ]
+  },
+  "2530": {
+    "name": "악곡의 왕관",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "3001": {
+    "name": "저녁갑주",
+    "plaintext": "근처의 적이 입는 마법 피해가 증가합니다.",
+    "total_gold": 2300,
+    "from": [
+      "생명의 샘 펜던트",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "3002": {
+    "name": "개척자",
+    "plaintext": "",
+    "total_gold": 2400,
+    "from": [
+      "비상의 월갑",
+      "쇠사슬 조끼"
+    ],
+    "into": []
+  },
+  "3003": {
+    "name": "대천사의 지팡이",
+    "plaintext": "최대 마나량에 따라 주문력이 대폭 상승합니다.",
+    "total_gold": 2900,
+    "from": [
+      "여신의 눈물",
+      "사라진 양피지",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "3004": {
+    "name": "마나무네",
+    "plaintext": "최대 마나량에 따라 공격력이 상승합니다.",
+    "total_gold": 2900,
+    "from": [
+      "여신의 눈물",
+      "콜필드의 전투 망치",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "3005": {
+    "name": "유령 배회자",
+    "plaintext": "최대 체력에 따라 공격력이 상승합니다.",
+    "total_gold": 1000,
+    "from": [
+      "장화"
+    ],
+    "into": []
+  },
+  "3006": {
+    "name": "광전사의 군화",
+    "plaintext": "이동 속도와 공격 속도가 상승합니다.",
+    "total_gold": 1100,
+    "from": [
+      "장화",
+      "단검",
+      "단검"
+    ],
+    "into": [
+      "건메탈 군화"
+    ]
+  },
+  "3008": {
+    "name": "탐욕의 군화",
+    "plaintext": "최대 마나량에 따라 공격력이 상승합니다.",
+    "total_gold": 1000,
+    "from": [
+      "장화"
+    ],
+    "into": [
+      "불멸의 길"
+    ]
+  },
+  "3009": {
+    "name": "신속의 장화",
+    "plaintext": "이동 속도가 증가하고, 둔화 효과를 감소시킵니다.",
+    "total_gold": 1000,
+    "from": [
+      "장화"
+    ],
+    "into": [
+      "신속행진"
+    ]
+  },
+  "3010": {
+    "name": "공생형 밑창",
+    "plaintext": "마나를 소모해 체력을 회복합니다.",
+    "total_gold": 900,
+    "from": [
+      "장화"
+    ],
+    "into": [
+      "하나 된 영혼"
+    ]
+  },
+  "3011": {
+    "name": "화학공학 부패기",
+    "plaintext": "",
+    "total_gold": 1900,
+    "from": [
+      "망각의 구",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "3012": {
+    "name": "축복의 성배",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "루비 수정",
+      "요정의 부적"
+    ],
+    "into": []
+  },
+  "3013": {
+    "name": "하나 된 영혼",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "공생형 밑창"
+    ],
+    "into": [
+      "영원한 전진"
+    ]
+  },
+  "3020": {
+    "name": "마법사의 신발",
+    "plaintext": "이동 속도와 마법 피해량이 증가합니다.",
+    "total_gold": 1100,
+    "from": [
+      "장화"
+    ],
+    "into": [
+      "주문투척자의 신발"
+    ]
+  },
+  "3023": {
+    "name": "생명의 샘 펜던트",
+    "plaintext": "망령들을 소환하여 적 챔피언에게 둔화를 걸고 위치를 드러냅니다.",
+    "total_gold": 1050,
+    "from": [
+      "루비 수정",
+      "천 갑옷"
+    ],
+    "into": [
+      "저녁갑주"
+    ]
+  },
+  "3024": {
+    "name": "얼음 방패",
+    "plaintext": "방어력과 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 900,
+    "from": [
+      "천 갑옷",
+      "사파이어 수정",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "얼어붙은 심장",
+      "얼어붙은 심장"
+    ]
+  },
+  "3026": {
+    "name": "수호 천사",
+    "plaintext": "주기적으로 챔피언 사망 시 부활시켜 줍니다.",
+    "total_gold": 3200,
+    "from": [
+      "강철 인장",
+      "B.F. 대검"
+    ],
+    "into": []
+  },
+  "3031": {
+    "name": "무한의 대검",
+    "plaintext": "치명타 확률이 대폭 증가합니다.",
+    "total_gold": 3500,
+    "from": [
+      "B.F. 대검",
+      "곡괭이",
+      "민첩성의 망토"
+    ],
+    "into": []
+  },
+  "3032": {
+    "name": "윤 탈 야생화살",
+    "plaintext": "",
+    "total_gold": 3100,
+    "from": [
+      "B.F. 대검",
+      "정찰병의 새총",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "3033": {
+    "name": "필멸자의 운명",
+    "plaintext": "체력 회복력과 방어력이 뛰어난 적에게 효과적입니다.",
+    "total_gold": 3000,
+    "from": [
+      "처형인의 대검",
+      "최후의 속삭임",
+      "민첩성의 망토"
+    ],
+    "into": []
+  },
+  "3035": {
+    "name": "최후의 속삭임",
+    "plaintext": "방어력이 뛰어난 적에게 효과적입니다.",
+    "total_gold": 1450,
+    "from": [
+      "롱소드",
+      "롱소드"
+    ],
+    "into": [
+      "필멸자의 운명",
+      "도미닉 경의 인사",
+      "세릴다의 원한"
+    ]
+  },
+  "3036": {
+    "name": "도미닉 경의 인사",
+    "plaintext": "체력과 방어력이 뛰어난 적에게 효과적입니다.",
+    "total_gold": 3300,
+    "from": [
+      "최후의 속삭임",
+      "절정의 화살"
+    ],
+    "into": []
+  },
+  "3039": {
+    "name": "아트마의 심판",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "거인의 허리띠",
+      "민첩성의 망토",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "3040": {
+    "name": "대천사의 포옹",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [],
+    "into": []
+  },
+  "3041": {
+    "name": "메자이의 영혼약탈자",
+    "plaintext": "챔피언을 처치하거나 어시스트를 올릴 경우, 주문력이 오릅니다.",
+    "total_gold": 1500,
+    "from": [
+      "암흑의 인장"
+    ],
+    "into": []
+  },
+  "3042": {
+    "name": "무라마나",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [],
+    "into": []
+  },
+  "3044": {
+    "name": "탐식의 망치",
+    "plaintext": "적을 공격하거나 처치하면 이동 속도가 잠시 상승합니다.",
+    "total_gold": 1100,
+    "from": [
+      "루비 수정",
+      "롱소드"
+    ],
+    "into": [
+      "칠흑의 양날 도끼",
+      "삼위일체",
+      "실험적 마공학판",
+      "선혈포식자",
+      "발걸음 분쇄기"
+    ]
+  },
+  "3046": {
+    "name": "유령 무희",
+    "plaintext": "적을 공격할 때 더 빠르게 움직이며 체력이 낮으면 보호막이 생성됩니다.",
+    "total_gold": 2650,
+    "from": [
+      "단검",
+      "열정의 검",
+      "단검"
+    ],
+    "into": []
+  },
+  "3047": {
+    "name": "판금 장화",
+    "plaintext": "이동 속도가 증가하고, 적에게 받는 기본 공격의 피해가 줄어듭니다.",
+    "total_gold": 1200,
+    "from": [
+      "장화",
+      "천 갑옷"
+    ],
+    "into": [
+      "무장 진격"
+    ]
+  },
+  "3050": {
+    "name": "지크의 융합",
+    "plaintext": "궁극기 사용 시 아군 한 명과 함께 추가 효과를 받습니다.",
+    "total_gold": 2200,
+    "from": [
+      "점화석",
+      "천 갑옷",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "3051": {
+    "name": "온기가 필요한 자의 도끼",
+    "plaintext": "",
+    "total_gold": 1200,
+    "from": [
+      "롱소드",
+      "단검",
+      "롱소드"
+    ],
+    "into": [
+      "삼위일체",
+      "경계",
+      "크라켄 학살자"
+    ]
+  },
+  "3053": {
+    "name": "스테락의 도전",
+    "plaintext": "대량의 피해를 보호막으로 막아줍니다.",
+    "total_gold": 3200,
+    "from": [
+      "곡괭이",
+      "땅굴 채굴기",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "3057": {
+    "name": "광휘의 검",
+    "plaintext": "스킬 공격 다음 공격에 추가 피해가 적용됩니다.",
+    "total_gold": 900,
+    "from": [
+      "빛나는 티끌"
+    ],
+    "into": [
+      "삼위일체",
+      "리치베인",
+      "황혼과 새벽",
+      "정수 약탈자",
+      "신성한 파괴자",
+      "얼어붙은 건틀릿"
+    ]
+  },
+  "3065": {
+    "name": "정령의 형상",
+    "plaintext": "체력이 오르며 치유 효과가 커집니다.",
+    "total_gold": 2700,
+    "from": [
+      "망령의 두건",
+      "점화석"
+    ],
+    "into": []
+  },
+  "3066": {
+    "name": "비상의 월갑",
+    "plaintext": "",
+    "total_gold": 800,
+    "from": [
+      "루비 수정"
+    ],
+    "into": [
+      "망자의 갑옷",
+      "개척자",
+      "개척자",
+      "선체파괴자",
+      "대자연의 힘"
+    ]
+  },
+  "3067": {
+    "name": "점화석",
+    "plaintext": "체력과 재사용 대기시간 감소량이 증가합니다.",
+    "total_gold": 800,
+    "from": [
+      "루비 수정",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "칠흑의 양날 도끼",
+      "심연의 가면",
+      "지크의 융합",
+      "심연의 가면",
+      "꽃피는 새벽의 검",
+      "강철의 솔라리 펜던트",
+      "미카엘의 축복",
+      "모렐로노미콘",
+      "헬리아의 메아리",
+      "지크의 융합",
+      "기사의 맹세",
+      "만년서리",
+      "월석 재생기",
+      "구원",
+      "끝없는 절망",
+      "황혼과 새벽",
+      "밴들파이프",
+      "원형질 안전벨트",
+      "월석 재생기",
+      "정령의 형상",
+      "혹한의 손길",
+      "헬리아의 메아리",
+      "강철의 솔라리 펜던트",
+      "미카엘의 축복",
+      "기사의 맹세",
+      "혹한의 손길",
+      "황금 뒤집개",
+      "우주의 추진력",
+      "부서진 여왕의 왕관",
+      "선혈포식자",
+      "신성한 파괴자",
+      "증오의 사슬"
+    ]
+  },
+  "3068": {
+    "name": "태양불꽃 방패",
+    "plaintext": "방어력이 높고 주변 적에게 지속적으로 피해를 입힙니다. 적을 이동 불가 상태로 만들면 화염을 방출해 피해를 입힙니다.",
+    "total_gold": 2700,
+    "from": [
+      "바미의 불씨",
+      "쇠사슬 조끼",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "3070": {
+    "name": "여신의 눈물",
+    "plaintext": "마나를 소모하면 최대 마나량이 증가합니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "대천사의 지팡이",
+      "마나무네",
+      "속삭이는 머리띠",
+      "혹한의 손길"
+    ]
+  },
+  "3071": {
+    "name": "칠흑의 양날 도끼",
+    "plaintext": "적 챔피언에게 물리 피해를 입히면 적의 방어력이 감소합니다.",
+    "total_gold": 3000,
+    "from": [
+      "탐식의 망치",
+      "점화석",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "3072": {
+    "name": "피바라기",
+    "plaintext": "공격력 및 생명력 흡수가 증가하며, 생명력 흡수가 최대 체력 이상으로 가능해집니다.",
+    "total_gold": 3400,
+    "from": [
+      "B.F. 대검",
+      "곡괭이",
+      "흡혈의 낫"
+    ],
+    "into": []
+  },
+  "3073": {
+    "name": "실험적 마공학판",
+    "plaintext": "마나를 소모하면 최대 마나량이 증가합니다.",
+    "total_gold": 3000,
+    "from": [
+      "땅굴 채굴기",
+      "탐식의 망치",
+      "단검"
+    ],
+    "into": []
+  },
+  "3074": {
+    "name": "굶주린 히드라",
+    "plaintext": "근접 공격으로 주변의 적에게 피해를 주면 체력이 회복됩니다. ",
+    "total_gold": 3300,
+    "from": [
+      "티아맷",
+      "흡혈의 낫",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "3075": {
+    "name": "가시 갑옷",
+    "plaintext": "",
+    "total_gold": 2450,
+    "from": [
+      "덤불 조끼",
+      "쇠사슬 조끼",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "3076": {
+    "name": "덤불 조끼",
+    "plaintext": "",
+    "total_gold": 800,
+    "from": [
+      "천 갑옷",
+      "천 갑옷"
+    ],
+    "into": [
+      "가시 갑옷",
+      "가시 갑옷"
+    ]
+  },
+  "3077": {
+    "name": "티아맷",
+    "plaintext": "주변 적에게 근접 피해를 입힙니다.",
+    "total_gold": 1200,
+    "from": [
+      "롱소드",
+      "롱소드"
+    ],
+    "into": [
+      "굶주린 히드라",
+      "거대한 히드라",
+      "불경한 히드라",
+      "발걸음 분쇄기"
+    ]
+  },
+  "3078": {
+    "name": "삼위일체",
+    "plaintext": "취급주의: 이 아이템만 갖추면 '엄청난 피해'를 줄 수 있죠...",
+    "total_gold": 3333,
+    "from": [
+      "광휘의 검",
+      "탐식의 망치",
+      "온기가 필요한 자의 도끼"
+    ],
+    "into": []
+  },
+  "3082": {
+    "name": "파수꾼의 갑옷",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [
+      "천 갑옷",
+      "천 갑옷"
+    ],
+    "into": [
+      "얼어붙은 심장",
+      "얼어붙은 심장",
+      "란두인의 예언"
+    ]
+  },
+  "3083": {
+    "name": "워모그의 갑옷",
+    "plaintext": "체력과 체력 재생량이 대폭 상승합니다.",
+    "total_gold": 3100,
+    "from": [
+      "거인의 허리띠",
+      "거인의 허리띠",
+      "수정 팔 보호구"
+    ],
+    "into": []
+  },
+  "3084": {
+    "name": "강철심장",
+    "plaintext": "적을 처치하거나 어시스트를 올리면 체력이 회복됩니다.",
+    "total_gold": 3000,
+    "from": [
+      "거인의 허리띠",
+      "수정 팔 보호구",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "3085": {
+    "name": "루난의 허리케인",
+    "plaintext": "원거리 공격 시 주변의 적들에게 두 발의 탄환을 발사합니다.",
+    "total_gold": 2650,
+    "from": [
+      "열정의 검",
+      "정찰병의 새총"
+    ],
+    "into": []
+  },
+  "3086": {
+    "name": "열정의 검",
+    "plaintext": "치명타 확률, 이동 속도와 공격 속도가 약간 상승합니다.",
+    "total_gold": 1200,
+    "from": [
+      "민첩성의 망토",
+      "단검"
+    ],
+    "into": [
+      "악마사냥꾼의 화살",
+      "고속 연사포",
+      "유령 무희",
+      "루난의 허리케인",
+      "황금 뒤집개",
+      "돌풍",
+      "나보리 명멸검"
+    ]
+  },
+  "3087": {
+    "name": "스태틱의 단검",
+    "plaintext": "이동 시 점차 충전되어, 기본 공격 시 연쇄 번개를 발사합니다.",
+    "total_gold": 3000,
+    "from": [
+      "정찰병의 새총",
+      "에테르 환영",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "3089": {
+    "name": "라바돈의 죽음모자",
+    "plaintext": "주문력이 대폭 상승합니다.",
+    "total_gold": 3500,
+    "from": [
+      "쓸데없이 큰 지팡이",
+      "쓸데없이 큰 지팡이"
+    ],
+    "into": []
+  },
+  "3091": {
+    "name": "마법사의 최후",
+    "plaintext": "마법 피해를 견디고 체력을 회복합니다.",
+    "total_gold": 2800,
+    "from": [
+      "곡궁",
+      "음전자 망토",
+      "곡궁"
+    ],
+    "into": []
+  },
+  "3094": {
+    "name": "고속 연사포",
+    "plaintext": "이동하며 완전히 충전하면 강력한 일격을 발사합니다.",
+    "total_gold": 2650,
+    "from": [
+      "열정의 검",
+      "정찰병의 새총"
+    ],
+    "into": []
+  },
+  "3095": {
+    "name": "과거 아이템",
+    "plaintext": "다른 충전 효과를 크게 강화시킵니다.",
+    "total_gold": 3000,
+    "from": [
+      "B.F. 대검",
+      "민첩성의 망토",
+      "정찰병의 새총"
+    ],
+    "into": []
+  },
+  "3097": {
+    "name": "폭풍갈퀴",
+    "plaintext": "주기적으로 적 미니언을 처치하여 근처 아군을 치유하고 골드를 부여합니다.",
+    "total_gold": 3200,
+    "from": [
+      "B.F. 대검",
+      "민첩성의 망토",
+      "정찰병의 새총"
+    ],
+    "into": []
+  },
+  "3100": {
+    "name": "리치베인",
+    "plaintext": "스킬 공격 다음 공격에 추가 피해가 적용됩니다.",
+    "total_gold": 2900,
+    "from": [
+      "광휘의 검",
+      "에테르 환영",
+      "방출의 마법봉"
+    ],
+    "into": []
+  },
+  "3102": {
+    "name": "밴시의 장막",
+    "plaintext": "주기적으로 적 스킬 공격을 막아줍니다.",
+    "total_gold": 3000,
+    "from": [
+      "쓸데없이 큰 지팡이",
+      "신록의 장벽"
+    ],
+    "into": []
+  },
+  "3105": {
+    "name": "군단의 방패",
+    "plaintext": "방어력과 마법 저항력이 증가합니다.",
+    "total_gold": 1100,
+    "from": [
+      "마법무효화의 망토",
+      "천 갑옷"
+    ],
+    "into": [
+      "가고일 돌갑옷",
+      "황금 뒤집개",
+      "광휘의 미덕"
+    ]
+  },
+  "3107": {
+    "name": "구원",
+    "plaintext": "활성화하면 주변 지역의 아군을 회복시키고 적에게는 피해를 입힙니다.",
+    "total_gold": 2300,
+    "from": [
+      "악마의 마법서",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "3108": {
+    "name": "악마의 마법서",
+    "plaintext": "주문력과 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 850,
+    "from": [
+      "증폭의 고서",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "파멸의식 고서",
+      "밤의 수확자",
+      "대천사의 지팡이",
+      "내셔의 이빨",
+      "제국의 명령",
+      "제국의 명령",
+      "대천사의 지팡이",
+      "흐르는 물의 지팡이",
+      "구원",
+      "마법공학 로켓 벨트",
+      "죽음불꽃 손아귀",
+      "무덤꽃",
+      "핏빛 저주",
+      "흐르는 물의 지팡이",
+      "지평선의 초점",
+      "우주의 추진력",
+      "균열 생성기"
+    ]
+  },
+  "3109": {
+    "name": "기사의 맹세",
+    "plaintext": "동료를 지정해 서로를 보호합니다.",
+    "total_gold": 2300,
+    "from": [
+      "점화석",
+      "쇠사슬 조끼",
+      "원기 회복의 구슬"
+    ],
+    "into": []
+  },
+  "3110": {
+    "name": "얼어붙은 심장",
+    "plaintext": "방어력이 대폭 증가하고, 적의 기본 공격이 느려집니다.",
+    "total_gold": 2500,
+    "from": [
+      "파수꾼의 갑옷",
+      "얼음 방패"
+    ],
+    "into": []
+  },
+  "3111": {
+    "name": "헤르메스의 발걸음",
+    "plaintext": "이동 속도가 증가하고, 방해 효과의 지속시간이 줄어듭니다.",
+    "total_gold": 1250,
+    "from": [
+      "장화",
+      "마법무효화의 망토"
+    ],
+    "into": [
+      "사슬끈 분쇄자"
+    ]
+  },
+  "3112": {
+    "name": "수호자의 보주",
+    "plaintext": "마법사에게 특화된 시작 아이템입니다.",
+    "total_gold": 950,
+    "from": [],
+    "into": []
+  },
+  "3113": {
+    "name": "에테르 환영",
+    "plaintext": "주문력과 이동 속도를 높여줍니다.",
+    "total_gold": 900,
+    "from": [
+      "증폭의 고서"
+    ],
+    "into": [
+      "파멸의식 고서",
+      "리치베인",
+      "슈렐리아의 군가",
+      "슈렐리아의 군가",
+      "스태틱의 단검",
+      "불타는 향로",
+      "불타는 향로",
+      "우주의 추진력",
+      "폭풍 쇄도"
+    ]
+  },
+  "3114": {
+    "name": "금지된 우상",
+    "plaintext": "회복 및 보호막 효과, 마나 재생량, 재사용 대기시간 감소량이 증가합니다.",
+    "total_gold": 600,
+    "from": [
+      "요정의 부적"
+    ],
+    "into": [
+      "꽃피는 새벽의 검",
+      "새벽심장",
+      "화학공학 부패기",
+      "미카엘의 축복",
+      "구원",
+      "속삭이는 머리띠",
+      "속삭이는 머리띠",
+      "화학공학 부패기",
+      "흐르는 물의 지팡이",
+      "구원",
+      "미카엘의 축복",
+      "불타는 향로",
+      "불타는 향로",
+      "흐르는 물의 지팡이",
+      "새벽심장"
+    ]
+  },
+  "3115": {
+    "name": "내셔의 이빨",
+    "plaintext": "공격 속도, 주문력, 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 2900,
+    "from": [
+      "곡궁",
+      "방출의 마법봉",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "3116": {
+    "name": "라일라이의 수정홀",
+    "plaintext": "스킬 및 마법 피해를 입히면 적이 둔화에 걸립니다.",
+    "total_gold": 2600,
+    "from": [
+      "방출의 마법봉",
+      "거인의 허리띠",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "3117": {
+    "name": "기동력의 장화",
+    "plaintext": "전투에서 벗어나 있을 때는 이동 속도가 대폭 상승합니다.",
+    "total_gold": 1000,
+    "from": [
+      "장화"
+    ],
+    "into": []
+  },
+  "3118": {
+    "name": "악의",
+    "plaintext": "동료를 지정해 서로를 보호합니다.",
+    "total_gold": 2700,
+    "from": [
+      "사라진 양피지",
+      "방출의 마법봉"
+    ],
+    "into": []
+  },
+  "3119": {
+    "name": "혹한의 손길",
+    "plaintext": "",
+    "total_gold": 2400,
+    "from": [
+      "여신의 눈물",
+      "거인의 허리띠",
+      "점화석"
+    ],
+    "into": []
+  },
+  "3121": {
+    "name": "종말의 겨울",
+    "plaintext": "",
+    "total_gold": 2400,
+    "from": [],
+    "into": []
+  },
+  "3123": {
+    "name": "처형인의 대검",
+    "plaintext": "회복력이 뛰어난 적에게 효과적입니다.",
+    "total_gold": 800,
+    "from": [
+      "롱소드"
+    ],
+    "into": [
+      "필멸자의 운명",
+      "화공 펑크 사슬검"
+    ]
+  },
+  "3124": {
+    "name": "구인수의 격노검",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "증폭의 고서",
+      "곡궁",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "3128": {
+    "name": "죽음불꽃 손아귀",
+    "plaintext": "사용하면 적 챔피언에게 가하는 모든 마법 피해량이 증가합니다.",
+    "total_gold": 2900,
+    "from": [
+      "쓸데없이 큰 지팡이",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "3131": {
+    "name": "신성의 검",
+    "plaintext": "사용하면 잠시 동안 치명타 확률이 100% 증가합니다.",
+    "total_gold": 2300,
+    "from": [
+      "톱날 단검",
+      "단검",
+      "단검"
+    ],
+    "into": []
+  },
+  "3133": {
+    "name": "콜필드의 전투 망치",
+    "plaintext": "공격력과 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 1050,
+    "from": [
+      "롱소드",
+      "빛나는 티끌",
+      "롱소드"
+    ],
+    "into": [
+      "죽음의 무도",
+      "오만",
+      "오만",
+      "활력증진의 펜던트",
+      "맬모셔스의 아귀",
+      "끝없는 갈망",
+      "마나무네",
+      "자객의 발톱",
+      "마나무네",
+      "정수 약탈자",
+      "굶주린 히드라",
+      "그림자 검",
+      "드락사르의 황혼검",
+      "화공 펑크 사슬검",
+      "갈라진 하늘",
+      "신성한 파괴자",
+      "월식",
+      "세릴다의 원한",
+      "원칙의 원형낫"
+    ]
+  },
+  "3134": {
+    "name": "톱날 단검",
+    "plaintext": "공격력과 물리 관통력이 증가합니다.",
+    "total_gold": 1000,
+    "from": [
+      "롱소드",
+      "롱소드"
+    ],
+    "into": [
+      "요우무의 유령검",
+      "징수의 총",
+      "오만",
+      "오만",
+      "기회",
+      "자객의 발톱",
+      "요새파괴자",
+      "망령 해적검",
+      "독사의 송곳니",
+      "밤의 끝자락",
+      "신성의 검",
+      "그림자 검",
+      "드락사르의 황혼검",
+      "징수의 총"
+    ]
+  },
+  "3135": {
+    "name": "공허의 지팡이",
+    "plaintext": "마법 피해량이 증가합니다.",
+    "total_gold": 3000,
+    "from": [
+      "역병의 보석",
+      "방출의 마법봉"
+    ],
+    "into": []
+  },
+  "3137": {
+    "name": "무덤꽃",
+    "plaintext": "사용하면 모든 해로운 효과가 제거되며, 이동 속도가 대폭 증가합니다.",
+    "total_gold": 3000,
+    "from": [
+      "역병의 보석",
+      "악마의 마법서",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "3139": {
+    "name": "헤르메스의 시미터",
+    "plaintext": "사용하면 모든 군중 제어 효과가 제거되며, 이동 속도가 대폭 증가합니다.",
+    "total_gold": 3200,
+    "from": [
+      "수은 장식띠",
+      "곡괭이",
+      "흡혈의 낫"
+    ],
+    "into": []
+  },
+  "3140": {
+    "name": "수은 장식띠",
+    "plaintext": "사용하면 모든 군중 제어 효과가 제거됩니다.",
+    "total_gold": 1300,
+    "from": [
+      "마법무효화의 망토"
+    ],
+    "into": [
+      "헤르메스의 시미터",
+      "은빛 여명"
+    ]
+  },
+  "3142": {
+    "name": "요우무의 유령검",
+    "plaintext": "사용하면 이동 속도가 대폭 상승합니다.",
+    "total_gold": 2800,
+    "from": [
+      "톱날 단검",
+      "꽁지깃",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "3143": {
+    "name": "란두인의 예언",
+    "plaintext": "방어력이 대폭 강화됩니다. 사용하면 주변 적들이 둔화에 걸립니다.",
+    "total_gold": 2700,
+    "from": [
+      "파수꾼의 갑옷",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "3144": {
+    "name": "정찰병의 새총",
+    "plaintext": "사용하면 마법 피해를 가하고 적 챔피언을 둔화시킵니다.",
+    "total_gold": 600,
+    "from": [
+      "단검",
+      "단검"
+    ],
+    "into": [
+      "악마사냥꾼의 화살",
+      "고속 연사포",
+      "스태틱의 단검",
+      "윤 탈 야생화살",
+      "루난의 허리케인",
+      "과거 아이템",
+      "폭풍갈퀴"
+    ]
+  },
+  "3145": {
+    "name": "마법공학 교류 발전기",
+    "plaintext": "주문력이 상승합니다. 공격 시 주기적으로 추가 마법 피해를 입힙니다.",
+    "total_gold": 1100,
+    "from": [
+      "증폭의 고서",
+      "증폭의 고서"
+    ],
+    "into": [
+      "그림자불꽃",
+      "밤의 수확자",
+      "마법공학 총검",
+      "루덴의 메아리",
+      "마법공학 로켓 벨트",
+      "폭풍 쇄도"
+    ]
+  },
+  "3146": {
+    "name": "마법공학 총검",
+    "plaintext": "공격력과 주문력이 증가합니다. 사용하면 대상이 둔화에 걸립니다.",
+    "total_gold": 3000,
+    "from": [
+      "흡혈의 낫",
+      "마법공학 교류 발전기",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "3147": {
+    "name": "기괴한 가면",
+    "plaintext": "적에게 기습 공격 시 추가 물리 피해를 입힙니다.",
+    "total_gold": 1300,
+    "from": [
+      "증폭의 고서",
+      "루비 수정"
+    ],
+    "into": [
+      "핏빛 저주",
+      "균열 생성기",
+      "리안드리의 고통"
+    ]
+  },
+  "3152": {
+    "name": "마법공학 로켓 벨트",
+    "plaintext": "사용시 앞으로 돌진하며 강력한 폭발을 일으키는 탄환을 발사합니다.",
+    "total_gold": 2650,
+    "from": [
+      "마법공학 교류 발전기",
+      "악마의 마법서",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "3153": {
+    "name": "몰락한 왕의 검",
+    "plaintext": "상대의 체력에 비례하여 피해를 입히고, 상대의 이동 속도를 훔칠 수 있습니다.",
+    "total_gold": 3200,
+    "from": [
+      "흡혈의 낫",
+      "곡궁",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "3155": {
+    "name": "주문포식자",
+    "plaintext": "공격력과 마법 저항력이 증가합니다.",
+    "total_gold": 1300,
+    "from": [
+      "롱소드",
+      "마법무효화의 망토",
+      "롱소드"
+    ],
+    "into": [
+      "맬모셔스의 아귀"
+    ]
+  },
+  "3156": {
+    "name": "맬모셔스의 아귀",
+    "plaintext": "체력이 낮아지면 추가 공격력이 부여됩니다.",
+    "total_gold": 3100,
+    "from": [
+      "주문포식자",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "3157": {
+    "name": "존야의 모래시계",
+    "plaintext": "사용하면 아무런 행동도 취할 수 없는 대신 공격도 받지 않는 무적 상태가 됩니다.",
+    "total_gold": 3250,
+    "from": [
+      "쓸데없이 큰 지팡이",
+      "추적자의 팔목 보호대"
+    ],
+    "into": []
+  },
+  "3158": {
+    "name": "명석함의 아이오니아 장화",
+    "plaintext": "이동 속도와 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 900,
+    "from": [
+      "장화",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "핏빛 명석함"
+    ]
+  },
+  "3161": {
+    "name": "쇼진의 창",
+    "plaintext": "챔피언에게 받는 피해량이 고정된 수치만큼 감소합니다. 근처에 적 챔피언이 많을 때 공격하면 잠시 동안 이 수치가 증가합니다.",
+    "total_gold": 3100,
+    "from": [
+      "곡괭이",
+      "땅굴 채굴기",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "3165": {
+    "name": "모렐로노미콘",
+    "plaintext": "마법 피해량이 증가합니다.",
+    "total_gold": 2850,
+    "from": [
+      "망각의 구",
+      "방출의 마법봉",
+      "점화석"
+    ],
+    "into": []
+  },
+  "3168": {
+    "name": "불멸의 길",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [
+      "탐욕의 군화"
+    ],
+    "into": []
+  },
+  "3170": {
+    "name": "신속행진",
+    "plaintext": "방어력이 증가하고, 방해 효과의 지속시간이 줄어듭니다.",
+    "total_gold": 1000,
+    "from": [
+      "신속의 장화"
+    ],
+    "into": []
+  },
+  "3171": {
+    "name": "핏빛 명석함",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "명석함의 아이오니아 장화"
+    ],
+    "into": []
+  },
+  "3172": {
+    "name": "건메탈 군화",
+    "plaintext": "이동 속도가 증가하고 강인함 효과를 받습니다.",
+    "total_gold": 1100,
+    "from": [
+      "광전사의 군화"
+    ],
+    "into": []
+  },
+  "3173": {
+    "name": "사슬끈 분쇄자",
+    "plaintext": "이동 속도와 재사용 대기시간 감소율이 증가합니다.",
+    "total_gold": 1250,
+    "from": [
+      "헤르메스의 발걸음"
+    ],
+    "into": []
+  },
+  "3174": {
+    "name": "무장 진격",
+    "plaintext": "적에게 피해를 입혀 회복과 보호막을 강화합니다.",
+    "total_gold": 1200,
+    "from": [
+      "판금 장화"
+    ],
+    "into": []
+  },
+  "3175": {
+    "name": "주문투척자의 신발",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [
+      "마법사의 신발"
+    ],
+    "into": []
+  },
+  "3176": {
+    "name": "영원한 전진",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "하나 된 영혼"
+    ],
+    "into": []
+  },
+  "3177": {
+    "name": "수호자의 검",
+    "plaintext": "공격에 특화된 시작 아이템입니다.",
+    "total_gold": 950,
+    "from": [],
+    "into": []
+  },
+  "3179": {
+    "name": "그림자 검",
+    "plaintext": "주기적으로 덫 및 와드를 감지할 수 있습니다.",
+    "total_gold": 2800,
+    "from": [
+      "톱날 단검",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "3181": {
+    "name": "선체파괴자",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "땅굴 채굴기",
+      "비상의 월갑",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "3184": {
+    "name": "수호자의 망치",
+    "plaintext": "공격에 특화된 시작 아이템입니다.",
+    "total_gold": 950,
+    "from": [],
+    "into": []
+  },
+  "3190": {
+    "name": "강철의 솔라리 펜던트",
+    "plaintext": "사용하면 주변 아군을 적의 공격에서 방어해 줍니다.",
+    "total_gold": 2200,
+    "from": [
+      "점화석",
+      "천 갑옷",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "3193": {
+    "name": "가고일 돌갑옷",
+    "plaintext": "근처에 적이 많을 때 방어력을 크게 증가시킵니다.",
+    "total_gold": 3150,
+    "from": [
+      "천 갑옷",
+      "군단의 방패",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "3211": {
+    "name": "망령의 두건",
+    "plaintext": "방어력이 증가하고, 피해를 입으면 체력이 재생됩니다.",
+    "total_gold": 1250,
+    "from": [
+      "루비 수정",
+      "마법무효화의 망토",
+      "원기 회복의 구슬"
+    ],
+    "into": [
+      "케이닉 루컨",
+      "정령의 형상",
+      "공허한 광휘"
+    ]
+  },
+  "322065": {
+    "name": "슈렐리아의 군가",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "에테르 환영",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "3222": {
+    "name": "미카엘의 축복",
+    "plaintext": "사용하면 아군 챔피언 하나에게 걸린 방해 효과를 모두 제거해 줍니다.",
+    "total_gold": 2300,
+    "from": [
+      "점화석",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "322526": {
+    "name": "속삭이는 머리띠",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [
+      "금지된 우상",
+      "루비 수정",
+      "여신의 눈물"
+    ],
+    "into": [
+      "악곡의 왕관"
+    ]
+  },
+  "322530": {
+    "name": "악곡의 왕관",
+    "plaintext": "",
+    "total_gold": 2250,
+    "from": [],
+    "into": []
+  },
+  "323002": {
+    "name": "개척자",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "비상의 월갑",
+      "쇠사슬 조끼"
+    ],
+    "into": []
+  },
+  "323003": {
+    "name": "대천사의 지팡이",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "여신의 눈물",
+      "사라진 양피지",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "323004": {
+    "name": "마나무네",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "여신의 눈물",
+      "콜필드의 전투 망치",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "323040": {
+    "name": "대천사의 포옹",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [],
+    "into": []
+  },
+  "323042": {
+    "name": "무라마나",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [],
+    "into": []
+  },
+  "323050": {
+    "name": "지크의 융합",
+    "plaintext": "",
+    "total_gold": 2300,
+    "from": [
+      "천 갑옷",
+      "점화석",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "323070": {
+    "name": "여신의 눈물",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "대천사의 지팡이",
+      "마나무네",
+      "대천사의 지팡이",
+      "마나무네",
+      "속삭이는 머리띠",
+      "혹한의 손길"
+    ]
+  },
+  "323075": {
+    "name": "가시 갑옷",
+    "plaintext": "",
+    "total_gold": 2650,
+    "from": [
+      "덤불 조끼",
+      "쇠사슬 조끼",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "323107": {
+    "name": "구원",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "점화석",
+      "루비 수정",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "323109": {
+    "name": "기사의 맹세",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "점화석",
+      "쇠사슬 조끼",
+      "원기 회복의 구슬"
+    ],
+    "into": []
+  },
+  "323110": {
+    "name": "얼어붙은 심장",
+    "plaintext": "",
+    "total_gold": 2700,
+    "from": [
+      "파수꾼의 갑옷",
+      "얼음 방패"
+    ],
+    "into": []
+  },
+  "323119": {
+    "name": "혹한의 손길",
+    "plaintext": "",
+    "total_gold": 2400,
+    "from": [
+      "여신의 눈물",
+      "거인의 허리띠",
+      "점화석"
+    ],
+    "into": []
+  },
+  "323121": {
+    "name": "종말의 겨울",
+    "plaintext": "",
+    "total_gold": 2400,
+    "from": [],
+    "into": []
+  },
+  "323190": {
+    "name": "강철의 솔라리 펜던트",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "점화석",
+      "천 갑옷",
+      "마법무효화의 망토"
+    ],
+    "into": []
+  },
+  "323222": {
+    "name": "미카엘의 축복",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "점화석",
+      "루비 수정",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "323504": {
+    "name": "불타는 향로",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "에테르 환영",
+      "증폭의 고서",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "324005": {
+    "name": "제국의 명령",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [
+      "악마의 마법서",
+      "증폭의 고서",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "326616": {
+    "name": "흐르는 물의 지팡이",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "악마의 마법서",
+      "증폭의 고서",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "326617": {
+    "name": "월석 재생기",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "점화석",
+      "루비 수정",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "326620": {
+    "name": "헬리아의 메아리",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "점화석",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "326621": {
+    "name": "새벽심장",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "방출의 마법봉",
+      "금지된 우상",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "326657": {
+    "name": "영겁의 지팡이",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "방출의 마법봉",
+      "억겁의 카탈리스트"
+    ],
+    "into": []
+  },
+  "328020": {
+    "name": "심연의 가면",
+    "plaintext": "",
+    "total_gold": 2850,
+    "from": [
+      "점화석",
+      "음전자 망토"
+    ],
+    "into": []
+  },
+  "3302": {
+    "name": "경계",
+    "plaintext": "주기적으로 미니언을 처치하여 근처 아군을 치유하고 골드를 부여합니다.",
+    "total_gold": 3000,
+    "from": [
+      "온기가 필요한 자의 도끼",
+      "곡궁"
+    ],
+    "into": []
+  },
+  "3330": {
+    "name": "허수아비",
+    "plaintext": "주기적으로 투명 와드를 설치합니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3340": {
+    "name": "투명 와드",
+    "plaintext": "주기적으로 투명 와드를 설치합니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3348": {
+    "name": "비전 탐지기",
+    "plaintext": "사용하면 주변 지역의 시야를 밝혀줍니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3349": {
+    "name": "광휘의 특이점",
+    "plaintext": "럭스가 빛의 영역을 생성해 적들을 @Slow@ <status>둔화</status>시키고 해당 지역을 드러냅니다. 5초가 지나거나 스킬을 <recast>재사용</recast>하면 폭발하며 <magicDamage>@TotalDamage@의 마법 피해</magicDamage>를 입히고 추가로 @SlowLingerDuration@초 동안 <status>둔화</status>시킵니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3363": {
+    "name": "망원형 개조",
+    "plaintext": "설치 범위가 증가하며 대상 지역을 드러내 줍니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3364": {
+    "name": "예언자의 렌즈",
+    "plaintext": "근처의 투명한 와드와 덫을 일정 시간 동안 차단합니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3398": {
+    "name": "작은 파티 선물",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3399": {
+    "name": "파티 선물",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3400": {
+    "name": "수당",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3430": {
+    "name": "파멸의식 고서",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "3504": {
+    "name": "불타는 향로",
+    "plaintext": "다른 유닛에게 보호막과 치유 효과를 쓰면 잠깐 동안 대상과 자신의 공격 속도가 상승합니다. 또한 이 상태에서 기본 공격이 적중하면 추가 마법 피해를 입힙니다.",
+    "total_gold": 2200,
+    "from": [
+      "에테르 환영",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "3508": {
+    "name": "정수 약탈자",
+    "plaintext": "",
+    "total_gold": 3050,
+    "from": [
+      "광휘의 검",
+      "콜필드의 전투 망치",
+      "민첩성의 망토"
+    ],
+    "into": []
+  },
+  "3513": {
+    "name": "전령의 눈",
+    "plaintext": "전령의 눈 - 공허로부터 온 선물입니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3599": {
+    "name": "칼리스타의 칠흑의 창",
+    "plaintext": "아군 계약자에게 결속시키는 칼리스타의 창입니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3600": {
+    "name": "칼리스타의 칠흑의 창",
+    "plaintext": "아군 계약자에게 결속시키는 칼리스타의 창입니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3742": {
+    "name": "망자의 갑옷",
+    "plaintext": "이동 시 추진력이 올라 적들을 강하게 타격합니다.",
+    "total_gold": 2900,
+    "from": [
+      "비상의 월갑",
+      "루비 수정",
+      "쇠사슬 조끼"
+    ],
+    "into": []
+  },
+  "3748": {
+    "name": "거대한 히드라",
+    "plaintext": "본인 체력에 비례하여 광역 피해를 입힙니다.",
+    "total_gold": 3300,
+    "from": [
+      "티아맷",
+      "땅굴 채굴기",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "3801": {
+    "name": "수정 팔 보호구",
+    "plaintext": "체력과 체력 재생량이 상승합니다.",
+    "total_gold": 800,
+    "from": [
+      "루비 수정",
+      "원기 회복의 구슬"
+    ],
+    "into": [
+      "강철심장",
+      "워모그의 갑옷"
+    ]
+  },
+  "3802": {
+    "name": "사라진 양피지",
+    "plaintext": "레벨이 오를 때마다 마나를 회복합니다.",
+    "total_gold": 1200,
+    "from": [
+      "증폭의 고서",
+      "사파이어 수정",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "실체화 장비",
+      "대천사의 지팡이",
+      "만년서리",
+      "대천사의 지팡이",
+      "루덴의 메아리",
+      "어둠불꽃 횃불",
+      "악의",
+      "부서진 여왕의 왕관"
+    ]
+  },
+  "3803": {
+    "name": "억겁의 카탈리스트",
+    "plaintext": "",
+    "total_gold": 1300,
+    "from": [
+      "루비 수정",
+      "루비 수정",
+      "사파이어 수정"
+    ],
+    "into": [
+      "활력증진의 펜던트",
+      "영겁의 지팡이",
+      "영겁의 지팡이"
+    ]
+  },
+  "3814": {
+    "name": "밤의 끝자락",
+    "plaintext": "주기적으로 적 스킬 공격을 막아줍니다.",
+    "total_gold": 3000,
+    "from": [
+      "톱날 단검",
+      "땅굴 채굴기"
+    ],
+    "into": []
+  },
+  "3850": {
+    "name": "주문도둑의 검",
+    "plaintext": "적 챔피언에게 피해를 입히면 골드를 획득하고 업그레이드됩니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3851": {
+    "name": "얼음 송곳니",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3853": {
+    "name": "얼음 정수의 파편",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3854": {
+    "name": "강철 어깨 보호대",
+    "plaintext": "아군과 함께 미니언을 처치하면 골드를 획득하고 업그레이드됩니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3855": {
+    "name": "룬 강철 어깨 갑옷",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3857": {
+    "name": "화이트록의 갑옷",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3858": {
+    "name": "고대유물 방패",
+    "plaintext": "아군과 함께 미니언을 처치하면 골드를 획득하고 업그레이드됩니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3859": {
+    "name": "타곤 산의 방패",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3860": {
+    "name": "타곤 산의 방벽",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3862": {
+    "name": "영혼의 낫",
+    "plaintext": "적 챔피언에게 피해를 입히면 골드를 획득하고 업그레이드됩니다.",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3863": {
+    "name": "해로윙 초승달낫",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3864": {
+    "name": "검은 안개 낫",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3865": {
+    "name": "세계 지도집",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3866": {
+    "name": "룬 나침반",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": []
+  },
+  "3867": {
+    "name": "세계의 결실",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [],
+    "into": [
+      "천상의 이의",
+      "꿈 생성기",
+      "자자크의 세계가시",
+      "태양의 썰매",
+      "피의 노래"
+    ]
+  },
+  "3869": {
+    "name": "천상의 이의",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [
+      "세계의 결실"
+    ],
+    "into": []
+  },
+  "3870": {
+    "name": "꿈 생성기",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [
+      "세계의 결실"
+    ],
+    "into": []
+  },
+  "3871": {
+    "name": "자자크의 세계가시",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [
+      "세계의 결실"
+    ],
+    "into": []
+  },
+  "3876": {
+    "name": "태양의 썰매",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [
+      "세계의 결실"
+    ],
+    "into": []
+  },
+  "3877": {
+    "name": "피의 노래",
+    "plaintext": "",
+    "total_gold": 400,
+    "from": [
+      "세계의 결실"
+    ],
+    "into": []
+  },
+  "3901": {
+    "name": "<rarityLegendary>가차없는 포격</rarityLegendary><br><subtitleLeft><silver>바다뱀 은화 500닢</silver></subtitleLeft>",
+    "plaintext": "포탄 세례가 시간이 갈수록 빠르게 발사됩니다. (지속시간 동안 추가 6차례 발사)",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3902": {
+    "name": "<rarityLegendary>죽음의 여신</rarityLegendary><br><subtitleLeft><silver>바다뱀 은화 500닢</silver></subtitleLeft>",
+    "plaintext": "<mainText>포탄 세례가 범위 중앙에 추가로 대형 포탄을 하나 발사하여 <trueDamage>추가 고정 피해</trueDamage>를 입히고 <status>둔화</status>시킵니다.</mainText>",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3903": {
+    "name": "<rarityLegendary>사기진작</rarityLegendary><br><subtitleLeft><silver>바다뱀 은화 500닢</silver></subtitleLeft>",
+    "plaintext": "포탄 세례 범위 안의 아군은 <speed>추가 이동 속도</speed>를 얻습니다.",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "3916": {
+    "name": "망각의 구",
+    "plaintext": "마법 피해량이 증가합니다.",
+    "total_gold": 800,
+    "from": [
+      "증폭의 고서"
+    ],
+    "into": [
+      "화학공학 부패기",
+      "모렐로노미콘",
+      "화학공학 부패기"
+    ]
+  },
+  "4003": {
+    "name": "생명선",
+    "plaintext": "지면에 표식을 남깁니다. 잠시 후 해당 표식으로 순간이동합니다.",
+    "total_gold": 1600,
+    "from": [
+      "꽁지깃",
+      "롱소드"
+    ],
+    "into": [
+      "망령 해적검"
+    ]
+  },
+  "4004": {
+    "name": "망령 해적검",
+    "plaintext": "지면에 표식을 남깁니다. 잠시 후 해당 표식으로 순간이동합니다.",
+    "total_gold": 2800,
+    "from": [
+      "생명선",
+      "톱날 단검"
+    ],
+    "into": []
+  },
+  "4005": {
+    "name": "제국의 명령",
+    "plaintext": "피해량의 일부를 나중에 받습니다.",
+    "total_gold": 2250,
+    "from": [
+      "악마의 마법서",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "4010": {
+    "name": "핏빛 저주",
+    "plaintext": "적에게 스킬로 피해를 입히면 주문 방어막이 생성됩니다.",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "4011": {
+    "name": "꽃피는 새벽의 검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "4012": {
+    "name": "죄악 포식자",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [],
+    "into": []
+  },
+  "4013": {
+    "name": "번개 끈",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [],
+    "into": []
+  },
+  "4014": {
+    "name": "얼어붙은 망치",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [],
+    "into": []
+  },
+  "4015": {
+    "name": "당혹",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "4016": {
+    "name": "무언의 서약",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "4017": {
+    "name": "지옥불 손도끼",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "4401": {
+    "name": "대자연의 힘",
+    "plaintext": "이동 속도와 마법 저항력이 증가하고 최대 체력에 비례해 체력을 재생합니다.",
+    "total_gold": 2800,
+    "from": [
+      "음전자 망토",
+      "루비 수정",
+      "비상의 월갑"
+    ],
+    "into": []
+  },
+  "4402": {
+    "name": "활력증진의 펜던트",
+    "plaintext": "스킬 사용 시 체력을 회복합니다.",
+    "total_gold": 2950,
+    "from": [
+      "억겁의 카탈리스트",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "4403": {
+    "name": "황금 뒤집개",
+    "plaintext": "만능 아이템입니다!",
+    "total_gold": 7187,
+    "from": [
+      "열정의 검",
+      "B.F. 대검",
+      "흡혈의 낫",
+      "점화석",
+      "쓸데없이 큰 지팡이",
+      "군단의 방패"
+    ],
+    "into": []
+  },
+  "443054": {
+    "name": "흑강철 발톱",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443055": {
+    "name": "질책",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443056": {
+    "name": "불사대마왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443058": {
+    "name": "용암의 방패",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443059": {
+    "name": "별빛밤 망토",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443060": {
+    "name": "신성의 검",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443061": {
+    "name": "엔트로피의 힘",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443062": {
+    "name": "핏빛 선물",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443063": {
+    "name": "일라이자의 기적",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443064": {
+    "name": "승천의 부적",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443069": {
+    "name": "불귀신",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443079": {
+    "name": "터보 화공 탱크",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443080": {
+    "name": "쌍둥이 가면",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443081": {
+    "name": "마공화살 동료",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443083": {
+    "name": "워모그의 갑옷",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443090": {
+    "name": "사신의 대가",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "443193": {
+    "name": "가고일 돌갑옷",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "444636": {
+    "name": "밤의 수확자",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "444637": {
+    "name": "악마의 포옹",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "444644": {
+    "name": "부서진 여왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446632": {
+    "name": "신성한 파괴자",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446656": {
+    "name": "만년서리",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446667": {
+    "name": "광휘의 미덕",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446671": {
+    "name": "돌풍",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446691": {
+    "name": "드락사르의 황혼검",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "446693": {
+    "name": "자객의 발톱",
+    "plaintext": "",
+    "total_gold": 1000,
+    "from": [],
+    "into": []
+  },
+  "447100": {
+    "name": "신기루 검",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447101": {
+    "name": "도박꾼의 칼날",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447102": {
+    "name": "현실 균열",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447103": {
+    "name": "혈마법사의 투구",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447104": {
+    "name": "활력증진의 펜던트",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447105": {
+    "name": "창공의 서약",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447106": {
+    "name": "용의 심장",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447107": {
+    "name": "참수자",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447108": {
+    "name": "룬 조각기",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447109": {
+    "name": "잔혹 행위",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447110": {
+    "name": "달빛 마법검",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447111": {
+    "name": "지배자의 피갑옷",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "447112": {
+    "name": "살점포식자",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447113": {
+    "name": "폭발의 구",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447114": {
+    "name": "반향",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447115": {
+    "name": "섭정 시해",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447116": {
+    "name": "킨코우 십수",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447118": {
+    "name": "화염술사의 망토",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447119": {
+    "name": "번개 막대",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447120": {
+    "name": "다이아몬드 창",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447121": {
+    "name": "황혼의 끝자락",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447122": {
+    "name": "블랙홀 건틀릿",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "447123": {
+    "name": "조종의 손아귀",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [],
+    "into": []
+  },
+  "4628": {
+    "name": "지평선의 초점",
+    "plaintext": "챔피언을 이동 불가 상태로 만들면 벼락이 떨어집니다.",
+    "total_gold": 2700,
+    "from": [
+      "악마의 마법서",
+      "악마의 마법서",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "4629": {
+    "name": "우주의 추진력",
+    "plaintext": "재사용 대기시간이 대폭 감소합니다.",
+    "total_gold": 3000,
+    "from": [
+      "점화석",
+      "에테르 환영",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "4630": {
+    "name": "역병의 보석",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [
+      "증폭의 고서"
+    ],
+    "into": [
+      "공허의 지팡이",
+      "무덤꽃"
+    ]
+  },
+  "4632": {
+    "name": "신록의 장벽",
+    "plaintext": "",
+    "total_gold": 1600,
+    "from": [
+      "증폭의 고서",
+      "마법무효화의 망토",
+      "증폭의 고서"
+    ],
+    "into": [
+      "밴시의 장막"
+    ]
+  },
+  "4633": {
+    "name": "균열 생성기",
+    "plaintext": "",
+    "total_gold": 3100,
+    "from": [
+      "기괴한 가면",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "4635": {
+    "name": "흡수의 시선",
+    "plaintext": "",
+    "total_gold": 1265,
+    "from": [
+      "루비 수정",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "4636": {
+    "name": "밤의 수확자",
+    "plaintext": "",
+    "total_gold": 2765,
+    "from": [
+      "마법공학 교류 발전기",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "4637": {
+    "name": "악마의 포옹",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "방출의 마법봉",
+      "거인의 허리띠",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "4638": {
+    "name": "감시하는 와드석",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [],
+    "into": [
+      "경계의 와드석"
+    ]
+  },
+  "4641": {
+    "name": "고무의 와드석",
+    "plaintext": "",
+    "total_gold": 350,
+    "from": [],
+    "into": []
+  },
+  "4642": {
+    "name": "밴들유리 거울",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "요정의 부적",
+      "증폭의 고서",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "슈렐리아의 군가",
+      "슈렐리아의 군가",
+      "헬리아의 메아리",
+      "월석 재생기",
+      "제국의 명령",
+      "제국의 명령",
+      "월석 재생기",
+      "헬리아의 메아리"
+    ]
+  },
+  "4643": {
+    "name": "경계의 와드석",
+    "plaintext": "",
+    "total_gold": 2300,
+    "from": [
+      "감시하는 와드석"
+    ],
+    "into": []
+  },
+  "4644": {
+    "name": "부서진 여왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2865,
+    "from": [
+      "점화석",
+      "사라진 양피지",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "4645": {
+    "name": "그림자불꽃",
+    "plaintext": "",
+    "total_gold": 3200,
+    "from": [
+      "마법공학 교류 발전기",
+      "쓸데없이 큰 지팡이"
+    ],
+    "into": []
+  },
+  "4646": {
+    "name": "폭풍 쇄도",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "마법공학 교류 발전기",
+      "에테르 환영"
+    ],
+    "into": []
+  },
+  "550001": {
+    "name": "체력 바 색칠: 파랑",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550002": {
+    "name": "체력 바 색칠: 주황",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550003": {
+    "name": "체력 바 색칠: 초록",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550004": {
+    "name": "체력 바 색칠: 분홍",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550005": {
+    "name": "체력 바 청소: 색상 초기화",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550006": {
+    "name": "체력 바 색칠: 무지개",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "550007": {
+    "name": "파티 선물",
+    "plaintext": "",
+    "total_gold": 10,
+    "from": [],
+    "into": []
+  },
+  "6029": {
+    "name": "강철가시 채찍",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [
+      "곡괭이"
+    ],
+    "into": [
+      "선혈포식자"
+    ]
+  },
+  "6032": {
+    "name": "추가 능력치",
+    "plaintext": "",
+    "total_gold": 750,
+    "from": [],
+    "into": []
+  },
+  "6035": {
+    "name": "은빛 여명",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "수은 장식띠",
+      "곡괭이",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "6333": {
+    "name": "죽음의 무도",
+    "plaintext": "",
+    "total_gold": 3300,
+    "from": [
+      "강철 인장",
+      "곡괭이",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6609": {
+    "name": "화공 펑크 사슬검",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "처형인의 대검",
+      "거인의 허리띠",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6610": {
+    "name": "갈라진 하늘",
+    "plaintext": "",
+    "total_gold": 3100,
+    "from": [
+      "땅굴 채굴기",
+      "콜필드의 전투 망치",
+      "루비 수정"
+    ],
+    "into": []
+  },
+  "6616": {
+    "name": "흐르는 물의 지팡이",
+    "plaintext": "체력 회복 및 보호막 스킬이 군중 제어 효과의 지속시간을 줄이고 이동 속도를 상승시킵니다.",
+    "total_gold": 2250,
+    "from": [
+      "악마의 마법서",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "6617": {
+    "name": "월석 재생기",
+    "plaintext": "체력 회복 및 보호막 스킬의 재사용 대기시간이 감소하고 체력이 낮은 아군에게 더 큰 효과를 냅니다.",
+    "total_gold": 2200,
+    "from": [
+      "점화석",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "6620": {
+    "name": "헬리아의 메아리",
+    "plaintext": "체력이 낮은 적에게 피해를 입히면 저주를 내려 폭발을 일으킵니다. 폭발에 닿은 주변 적들은 피해를 입고 둔화됩니다.",
+    "total_gold": 2200,
+    "from": [
+      "점화석",
+      "밴들유리 거울"
+    ],
+    "into": []
+  },
+  "6621": {
+    "name": "새벽심장",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [
+      "방출의 마법봉",
+      "금지된 우상",
+      "금지된 우상"
+    ],
+    "into": []
+  },
+  "6630": {
+    "name": "선혈포식자",
+    "plaintext": "",
+    "total_gold": 3200,
+    "from": [
+      "강철가시 채찍",
+      "탐식의 망치",
+      "점화석"
+    ],
+    "into": []
+  },
+  "663039": {
+    "name": "아트마의 심판",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663056": {
+    "name": "불사대마왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663058": {
+    "name": "용암의 방패",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663059": {
+    "name": "별빛밤 망토",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663060": {
+    "name": "신성의 검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663064": {
+    "name": "베이가의 승천의 부적",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [],
+    "into": []
+  },
+  "6631": {
+    "name": "발걸음 분쇄기",
+    "plaintext": "",
+    "total_gold": 3300,
+    "from": [
+      "티아맷",
+      "탐식의 망치",
+      "단검"
+    ],
+    "into": []
+  },
+  "663146": {
+    "name": "마법공학 총검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663172": {
+    "name": "서풍",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "663193": {
+    "name": "가고일 돌갑옷",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "6632": {
+    "name": "신성한 파괴자",
+    "plaintext": "",
+    "total_gold": 3450,
+    "from": [
+      "콜필드의 전투 망치",
+      "광휘의 검",
+      "점화석"
+    ],
+    "into": []
+  },
+  "664011": {
+    "name": "꽃피는 새벽의 검",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "664403": {
+    "name": "황금 뒤집개",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "664644": {
+    "name": "부서진 여왕의 왕관",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "6653": {
+    "name": "리안드리의 고통",
+    "plaintext": "전투 중 충전하여 큰 지속 피해를 입힙니다. 유지력이 강한 적에게 효과적입니다.",
+    "total_gold": 3000,
+    "from": [
+      "기괴한 가면",
+      "운명의 재"
+    ],
+    "into": []
+  },
+  "6655": {
+    "name": "루덴의 메아리",
+    "plaintext": "폭발적인 피해를 입힙니다. 유지력이 약한 적에게 효과적입니다.",
+    "total_gold": 2750,
+    "from": [
+      "사라진 양피지",
+      "마법공학 교류 발전기"
+    ],
+    "into": []
+  },
+  "6656": {
+    "name": "만년서리",
+    "plaintext": "",
+    "total_gold": 2865,
+    "from": [
+      "점화석",
+      "사라진 양피지",
+      "증폭의 고서"
+    ],
+    "into": []
+  },
+  "6657": {
+    "name": "영겁의 지팡이",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "방출의 마법봉",
+      "억겁의 카탈리스트"
+    ],
+    "into": []
+  },
+  "6660": {
+    "name": "바미의 불씨",
+    "plaintext": "",
+    "total_gold": 900,
+    "from": [
+      "루비 수정",
+      "빛나는 티끌"
+    ],
+    "into": [
+      "태양불꽃 방패",
+      "공허한 광휘"
+    ]
+  },
+  "6662": {
+    "name": "얼어붙은 건틀릿",
+    "plaintext": "마법 저항력이 크게 증가하며, 기본 지속 효과로 주변 적들을 둔화시킵니다. 주변에서 스킬이 사용되면 에너지 파동을 발산해 적들에게 피해를 입히고 둔화시킵니다.",
+    "total_gold": 2900,
+    "from": [
+      "광휘의 검",
+      "루비 수정",
+      "쇠사슬 조끼"
+    ],
+    "into": []
+  },
+  "6664": {
+    "name": "공허한 광휘",
+    "plaintext": "적을 이동 불가 상태로 만들면 보호막을 얻습니다. 사용 시 적에게 접근할 때 이동 속도가 상승합니다.",
+    "total_gold": 2800,
+    "from": [
+      "바미의 불씨",
+      "망령의 두건"
+    ],
+    "into": []
+  },
+  "6665": {
+    "name": "해신 작쇼",
+    "plaintext": "",
+    "total_gold": 3200,
+    "from": [
+      "거인의 허리띠",
+      "쇠사슬 조끼",
+      "음전자 망토"
+    ],
+    "into": []
+  },
+  "6667": {
+    "name": "광휘의 미덕",
+    "plaintext": "",
+    "total_gold": 2600,
+    "from": [
+      "군단의 방패",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "6670": {
+    "name": "절정의 화살",
+    "plaintext": "",
+    "total_gold": 1300,
+    "from": [
+      "롱소드",
+      "민첩성의 망토"
+    ],
+    "into": [
+      "마법광학 장치 C44",
+      "도미닉 경의 인사",
+      "불멸의 철갑궁"
+    ]
+  },
+  "6671": {
+    "name": "돌풍",
+    "plaintext": "",
+    "total_gold": 3500,
+    "from": [
+      "B.F. 대검",
+      "열정의 검",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "667101": {
+    "name": "도박꾼의 칼날",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "667109": {
+    "name": "잔혹 행위",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "667112": {
+    "name": "살점포식자",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  },
+  "6672": {
+    "name": "크라켄 학살자",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "꽁지깃",
+      "온기가 필요한 자의 도끼",
+      "곡궁"
+    ],
+    "into": []
+  },
+  "6673": {
+    "name": "불멸의 철갑궁",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "곡괭이",
+      "절정의 화살"
+    ],
+    "into": []
+  },
+  "6675": {
+    "name": "나보리 명멸검",
+    "plaintext": "",
+    "total_gold": 2650,
+    "from": [
+      "단검",
+      "열정의 검",
+      "단검"
+    ],
+    "into": []
+  },
+  "6676": {
+    "name": "징수의 총",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "곡괭이",
+      "톱날 단검",
+      "민첩성의 망토"
+    ],
+    "into": []
+  },
+  "667666": {
+    "name": "징수의 총",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "곡괭이",
+      "톱날 단검",
+      "민첩성의 망토"
+    ],
+    "into": []
+  },
+  "6677": {
+    "name": "분노의 칼",
+    "plaintext": "",
+    "total_gold": 1100,
+    "from": [
+      "단검",
+      "단검"
+    ],
+    "into": []
+  },
+  "6690": {
+    "name": "꽁지깃",
+    "plaintext": "",
+    "total_gold": 775,
+    "from": [
+      "롱소드"
+    ],
+    "into": [
+      "생명선",
+      "라코어의 방패",
+      "크라켄 학살자",
+      "요우무의 유령검"
+    ]
+  },
+  "6691": {
+    "name": "드락사르의 황혼검",
+    "plaintext": "",
+    "total_gold": 2950,
+    "from": [
+      "톱날 단검",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6692": {
+    "name": "월식",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "콜필드의 전투 망치",
+      "곡괭이",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "6693": {
+    "name": "자객의 발톱",
+    "plaintext": "",
+    "total_gold": 2850,
+    "from": [
+      "톱날 단검",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6694": {
+    "name": "세릴다의 원한",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "콜필드의 전투 망치",
+      "최후의 속삭임"
+    ],
+    "into": []
+  },
+  "6695": {
+    "name": "독사의 송곳니",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [
+      "톱날 단검",
+      "곡괭이"
+    ],
+    "into": []
+  },
+  "6696": {
+    "name": "원칙의 원형낫",
+    "plaintext": "",
+    "total_gold": 2750,
+    "from": [
+      "야수화",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6697": {
+    "name": "오만",
+    "plaintext": "",
+    "total_gold": 2800,
+    "from": [
+      "톱날 단검",
+      "콜필드의 전투 망치"
+    ],
+    "into": []
+  },
+  "6698": {
+    "name": "불경한 히드라",
+    "plaintext": "",
+    "total_gold": 2850,
+    "from": [
+      "티아맷",
+      "야수화"
+    ],
+    "into": []
+  },
+  "6699": {
+    "name": "벼락폭풍검",
+    "plaintext": "",
+    "total_gold": 3000,
+    "from": [
+      "야수화",
+      "롱소드",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "6700": {
+    "name": "라코어의 방패",
+    "plaintext": "",
+    "total_gold": 2675,
+    "from": [
+      "꽁지깃",
+      "강철 인장"
+    ],
+    "into": []
+  },
+  "6701": {
+    "name": "기회",
+    "plaintext": "",
+    "total_gold": 2700,
+    "from": [
+      "곡괭이",
+      "톱날 단검",
+      "롱소드"
+    ],
+    "into": []
+  },
+  "6702": {
+    "name": "전방 정찰",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "7050": {
+    "name": "갱플랭크 Placeholder",
+    "plaintext": "새로운 갱플랭크 인터페이스 추가 예정!",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "8001": {
+    "name": "증오의 사슬",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [
+      "점화석",
+      "거인의 허리띠"
+    ],
+    "into": []
+  },
+  "8010": {
+    "name": "핏빛 저주",
+    "plaintext": "",
+    "total_gold": 2900,
+    "from": [
+      "기괴한 가면",
+      "악마의 마법서"
+    ],
+    "into": []
+  },
+  "8020": {
+    "name": "심연의 가면",
+    "plaintext": "",
+    "total_gold": 2650,
+    "from": [
+      "점화석",
+      "음전자 망토"
+    ],
+    "into": []
+  },
+  "9168": {
+    "name": "잠긴 무기 슬롯",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9171": {
+    "name": "회오리 칼날",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9172": {
+    "name": "유미봇",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9173": {
+    "name": "광휘 역장",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9174": {
+    "name": "스태틱의 검",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9175": {
+    "name": "사자의 비가",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9176": {
+    "name": "개틀링 토끼 건",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9177": {
+    "name": "타오르는 단궁",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9178": {
+    "name": "절멸자",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9179": {
+    "name": "전투 토끼 석궁",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9180": {
+    "name": "귀여운 발사기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9181": {
+    "name": "소용돌이 장갑",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9183": {
+    "name": "칼날 부메랑",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9184": {
+    "name": "토끼 초강력 폭발",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9185": {
+    "name": "상어잡이 해양 기뢰",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9187": {
+    "name": "티.버",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9188": {
+    "name": "동물 지뢰",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9189": {
+    "name": "최후의 도시 대중교통",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9190": {
+    "name": "메아리치는 박쥐칼날",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9192": {
+    "name": "발자국 중독 장치",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9193": {
+    "name": "얼음작렬 갑옷",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9271": {
+    "name": "그치지 않는 폭풍",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9272": {
+    "name": "유미봇_최종_최종",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9273": {
+    "name": "폭발의 포옹",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9274": {
+    "name": "프룸비스의 전기도축칼",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9275": {
+    "name": "휘감는 빛",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9276": {
+    "name": "이중 깡충깡충 포화",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9277": {
+    "name": "진화한 불꽃 사격",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9278": {
+    "name": "동물의 종말",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9279": {
+    "name": "토끼 프라임 거대 석궁",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9280": {
+    "name": "왕 귀여운 발사기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9281": {
+    "name": "폭풍의 건틀릿",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9283": {
+    "name": "사중 부메랑",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9284": {
+    "name": "고속 토끼 속사포",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9285": {
+    "name": "무한의 괴물 퇴치기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9287": {
+    "name": "티.버 (특.대.형 에디션)",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9288": {
+    "name": "징크스의 삼중 다이너마이트",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9289": {
+    "name": "FC 급행열차",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9290": {
+    "name": "베인의 크로마칼날",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9292": {
+    "name": "맨발 화학 물질 분사기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9293": {
+    "name": "완전 빙결",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9300": {
+    "name": "야옹 야옹",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9301": {
+    "name": "방패 타격",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9302": {
+    "name": "음향의 물결",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9303": {
+    "name": "족쇄 할퀴기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9304": {
+    "name": "강철 폭풍",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9305": {
+    "name": "촉수 후려치기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9306": {
+    "name": "날개 달린 단검",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9307": {
+    "name": "인도의 저주",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9308": {
+    "name": "토끼뜀",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9400": {
+    "name": "전투 고양이 총알 세례",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9401": {
+    "name": "사자의 광명",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9402": {
+    "name": "동물 메아리",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9403": {
+    "name": "포악한 베기",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9404": {
+    "name": "떠도는 폭풍",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9405": {
+    "name": "곰의 강타",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9406": {
+    "name": "연인의 도탄",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9407": {
+    "name": "고양된 저주",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "9408": {
+    "name": "당근 격돌",
+    "plaintext": "",
+    "total_gold": 0,
+    "from": [],
+    "into": []
+  },
+  "994403": {
+    "name": "황금 뒤집개",
+    "plaintext": "",
+    "total_gold": 2500,
+    "from": [],
+    "into": []
+  }
+}
