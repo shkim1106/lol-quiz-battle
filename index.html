@@ -184,7 +184,7 @@
     <div id="hint-text"></div>
     <div id="options-grid"></div>
     <div id="price-form" style="display:none">
-      <input id="price-input" type="number" placeholder="골드 수치 입력" min="0">
+      <input id="price-input" type="text" inputmode="numeric" placeholder="골드 입력 (숫자만)" autocomplete="off">
       <button class="btn btn-gold" id="price-submit-btn" style="width:auto;padding:12px 20px">제출</button>
     </div>
     <div id="result-banner"></div>
@@ -402,8 +402,17 @@ async function submitAnswer(answer) {
   } catch {}
 }
 
+// 숫자만 입력 허용
+$('price-input').addEventListener('input', e => {
+  e.target.value = e.target.value.replace(/[^0-9]/g, '');
+});
+$('price-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { doSubmitPrice(); return; }
+  // 허용 키: 숫자, 백스페이스, 방향키, Delete, Tab
+  const allowed = ['Backspace','Delete','Tab','ArrowLeft','ArrowRight','Home','End'];
+  if (!allowed.includes(e.key) && !/^\d$/.test(e.key)) e.preventDefault();
+});
 $('price-submit-btn').addEventListener('click', doSubmitPrice);
-$('price-input').addEventListener('keydown', e => { if (e.key === 'Enter') doSubmitPrice(); });
 
 function doSubmitPrice() {
   if (state.answered) return;
