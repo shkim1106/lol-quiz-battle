@@ -1,6 +1,8 @@
 const express = require('express');
 const pusher  = require('../lib/pusher');
-const { getRoom, saveRoom, acquireLock } = require('../lib/redis');
+const { getRoom, saveRoom, acquireLock,
+        claimAnswer, addScore, setLastDelta,
+        incrementAnswerCount, getPlayerScores, resetScores } = require('../lib/redis');
 const { generators, MODES, sanitize } = require('../lib/quiz');
 
 const app = express();
@@ -105,6 +107,7 @@ app.post('/api/game/start', async (req, res) => {
   room.qIdx   = 0;
   room.players.forEach(p => { p.score = 0; p.lastDelta = 0; });
 
+  await resetScores(room.code, room.players);
   await saveRoom(room);
 
   // game_started → 첫 문제를 순서대로 트리거 (setTimeout은 서버리스에서 동작 안 함)
@@ -121,7 +124,10 @@ app.post('/api/game/submit', async (req, res) => {
   if (!room || room.status !== 'playing' || !room.quiz)
     return res.status(400).json({ error: '진행 중인 게임이 없습니다.' });
 
-  if (room.answers[playerId] !== undefined)
+  // 원자적 답변 점유 (SETNX) — 이미 제출했으면 false
+  // race condition 방지: 두 요청이 동시에 와도 하나만 true를 받음
+  const claimed = await claimAnswer(code, room.qIdx, playerId, answer);
+  if (!claimed)
     return res.json({ correct: false, delta: 0, alreadyAnswered: true });
 
   const elapsed = (Date.now() - room.startTime) / 1000;
@@ -136,16 +142,17 @@ app.post('/api/game/submit', async (req, res) => {
   }
 
   const delta = correct ? Math.max(50, Math.round(100 * (1 - elapsed / TIME_LIMIT))) : 0;
-  room.answers[playerId] = answer;
 
-  const p = room.players.find(p => p.id === playerId);
-  if (p) { p.score += delta; p.lastDelta = delta; }
+  // 원자적 점수 반영 — room 객체를 건드리지 않아 덮어쓰기 없음
+  await addScore(code, playerId, delta);
+  await setLastDelta(code, playerId, delta);
 
-  await saveRoom(room);
-
-  // 전원 제출 시 즉시 라운드 종료
-  if (Object.keys(room.answers).length >= room.players.length) {
-    await sendRoundEnd(code, room);
+  // 제출 수 원자적 증가 → 전원 제출 시 라운드 종료
+  const count = await incrementAnswerCount(code, room.qIdx);
+  if (count >= room.players.length) {
+    // submit과 timeout이 경쟁할 때 한 번만 처리되도록 같은 락 키 사용
+    const locked = await acquireLock(`lock:${code}:roundend:${room.qIdx}`);
+    if (locked) await sendRoundEnd(code, room);
   }
 
   res.json({ correct, delta });
@@ -157,8 +164,9 @@ app.post('/api/game/timeout', async (req, res) => {
   const room = await getRoom(code);
   if (!room || room.qIdx !== Number(qIdx)) return res.json({ ok: false });
 
-  // 락: 여러 클라이언트가 동시에 호출해도 한 번만 처리
-  const locked = await acquireLock(`lock:${code}:timeout:${qIdx}`);
+  // submit 핸들러와 동일한 락 키 사용
+  // → 전원 제출로 이미 라운드 종료됐으면 false 반환
+  const locked = await acquireLock(`lock:${code}:roundend:${qIdx}`);
   if (!locked) return res.json({ ok: false, duplicate: true });
 
   const freshRoom = await getRoom(code); // 락 이후 최신 상태
@@ -194,6 +202,7 @@ app.post('/api/game/restart', async (req, res) => {
   room.answers = {};
   room.players.forEach(p => { p.score = 0; p.lastDelta = 0; });
 
+  await resetScores(room.code, room.players);
   await saveRoom(room);
   await trigger(code, 'game_reset', { players: room.players });
   res.json({ ok: true });
@@ -210,7 +219,8 @@ async function sendNextQuestion(code) {
   if (room.qIdx > TOTAL_Q) {
     room.status = 'ended';
     await saveRoom(room);
-    const ranking = [...room.players].sort((a, b) => b.score - a.score)
+    const players = await getPlayerScores(code, room.players);
+    const ranking = [...players].sort((a, b) => b.score - a.score)
       .map(p => ({ nickname: p.nickname, score: p.score }));
     await trigger(code, 'game_end', { ranking });
     return;
@@ -233,7 +243,9 @@ async function sendNextQuestion(code) {
 }
 
 async function sendRoundEnd(code, room) {
-  const ranking = [...room.players]
+  // 원자적 Redis 키에서 최신 점수 읽기 (room 객체 스냅샷 대신)
+  const players = await getPlayerScores(code, room.players);
+  const ranking = [...players]
     .sort((a, b) => b.score - a.score)
     .map(p => ({ nickname: p.nickname, score: p.score, delta: p.lastDelta }));
 
