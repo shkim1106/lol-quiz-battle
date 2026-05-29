@@ -115,6 +115,22 @@
   #toast.show { opacity: 1; }
   .btn-danger { background: transparent; border: 1px solid var(--red); color: var(--red); font-size:.88rem; padding:10px; }
   .btn-danger:hover { background: rgba(231,76,60,.1); }
+  /* 관전 */
+  .spectate-check { display:flex; align-items:center; gap:8px; padding:8px 2px;
+    color:var(--text2); font-size:.9rem; cursor:pointer; user-select:none; }
+  .spectate-check input { accent-color:var(--gold2); width:16px; height:16px; cursor:pointer; flex-shrink:0; }
+  .spectator-tag { display:inline-flex; align-items:center; gap:4px;
+    background:rgba(10,196,180,.12); border:1px solid var(--accent); border-radius:6px;
+    padding:3px 10px; font-size:.78rem; color:var(--accent); font-weight:700; letter-spacing:.5px; }
+  #sp-bars { display:flex; flex-direction:column; gap:12px; }
+  .sp-row { display:grid; grid-template-columns:32px 1fr auto 52px 44px; align-items:center; gap:8px; }
+  .sp-medal { font-size:1.1rem; text-align:center; }
+  .sp-name  { font-weight:600; font-size:.9rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .sp-bar-wrap { height:28px; background:var(--card2); border-radius:6px; overflow:hidden; }
+  .sp-bar  { height:100%; background:linear-gradient(90deg,#C8A96E,#F0C070);
+    border-radius:6px; min-width:4px; transition:width .8s cubic-bezier(.4,0,.2,1); }
+  .sp-pts  { font-weight:700; color:var(--gold2); font-size:.9rem; text-align:right; white-space:nowrap; }
+  .sp-delta-cell { font-size:.78rem; color:var(--green); font-weight:700; text-align:right; min-width:36px; }
   .mt8{margin-top:8px} .mt12{margin-top:12px} .mt16{margin-top:16px} .mt24{margin-top:24px}
   .gap8{display:flex;flex-direction:column;gap:8px}
   small{color:var(--text2);font-size:.82rem} em{color:var(--text);font-style:italic} b{color:var(--white)}
@@ -139,6 +155,10 @@
     <div class="gap8">
       <input id="code-input" type="text" placeholder="방 코드 5자리 입력" maxlength="5"
              style="text-transform:uppercase;letter-spacing:4px;text-align:center">
+      <label class="spectate-check">
+        <input type="checkbox" id="spectate-chk">
+        👁 관전 모드로 참가 (점수 없이 순위 대시보드 관람)
+      </label>
       <button class="btn btn-ghost" id="join-btn">🚪 게임 참가</button>
     </div>
   </div>
@@ -200,6 +220,29 @@
   </div>
 </div>
 
+<!-- 관전 대시보드 -->
+<div id="screen-spectate" class="screen">
+  <div class="game-header" style="margin-top:20px">
+    <span id="sp-q-counter" style="color:var(--text2);font-size:.9rem">대기 중…</span>
+    <span id="sp-mode-label" style="color:var(--accent);font-size:.82rem;font-weight:700;letter-spacing:.5px"></span>
+    <span id="sp-timer-display" style="font-weight:700;color:var(--gold)">—</span>
+  </div>
+  <div id="sp-timer-bar-wrap" style="width:100%;max-width:640px;background:var(--card2);border-radius:4px;height:8px;overflow:hidden;margin-bottom:14px">
+    <div id="sp-timer-bar" style="height:100%;background:var(--gold);border-radius:4px;width:0%"></div>
+  </div>
+  <div class="card" style="max-width:640px;width:100%;padding:18px 24px">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <span class="spectator-tag">👁 관전 모드</span>
+      <span id="sp-spectator-info" style="color:var(--text2);font-size:.82rem"></span>
+    </div>
+    <div id="sp-question-text" style="font-size:1rem;line-height:1.75;color:var(--text)">게임 시작을 기다리는 중…</div>
+  </div>
+  <div class="card mt16" style="max-width:640px;width:100%">
+    <h2 style="margin-bottom:20px">📊 실시간 점수판</h2>
+    <div id="sp-bars"></div>
+  </div>
+</div>
+
 <!-- 게임 종료 -->
 <div id="screen-end" class="screen">
   <h1 style="margin-top:40px">🏆 최종 결과</h1>
@@ -225,15 +268,18 @@
 <script>
 // ── 상태 ──────────────────────────────────────────────────────────────────────
 const state = {
-  nickname:    '',
-  code:        '',
-  playerId:    getOrCreateId(),
-  isHost:      false,
-  answered:    false,
-  currentQIdx: 0,
-  timerInterval: null,
-  nextTimeout:   null,
-  cdInterval:    null,
+  nickname:        '',
+  code:            '',
+  playerId:        getOrCreateId(),
+  isHost:          false,
+  spectating:      false,    // 관전 모드 여부
+  spPlayers:       [],       // 관전 대시보드용 점수판 [{nickname, score, delta}]
+  answered:        false,
+  currentQIdx:     0,
+  timerInterval:   null,
+  spTimerInterval: null,     // 관전용 타이머
+  nextTimeout:     null,
+  cdInterval:      null,
 };
 
 function getOrCreateId() {
@@ -244,7 +290,7 @@ function getOrCreateId() {
 
 // ── DOM ───────────────────────────────────────────────────────────────────────
 const $ = id => document.getElementById(id);
-const screens = { landing: $('screen-landing'), lobby: $('screen-lobby'), game: $('screen-game'), end: $('screen-end') };
+const screens = { landing: $('screen-landing'), lobby: $('screen-lobby'), game: $('screen-game'), spectate: $('screen-spectate'), end: $('screen-end') };
 
 function showScreen(name) {
   Object.values(screens).forEach(s => s.classList.remove('active'));
@@ -269,12 +315,23 @@ async function initPusher(code) {
   channel = pusher.subscribe(`room-${code}`);
   state.code = code;
 
-  channel.bind('player_update', ({ players }) => renderLobbyPlayers(players));
+  channel.bind('player_update', ({ players, spectators = [] }) => {
+    // 관전 점수판 플레이어 목록 동기화 (게임 시작 전 누군가 입장할 때)
+    state.spPlayers = players.map(p => ({ nickname: p.nickname, score: 0, delta: 0 }));
+    renderLobbyPlayers(players, spectators);
+  });
 
   channel.bind('game_started', () => {
     $('round-overlay').classList.remove('show');
-    $('host-stop-wrap').style.display = state.isHost ? '' : 'none';
-    showScreen('game');
+    if (state.spectating) {
+      $('sp-q-counter').textContent   = '준비 중…';
+      $('sp-question-text').innerHTML = '첫 번째 문제를 불러오는 중…';
+      renderSpectatorBars(state.spPlayers);
+      showScreen('spectate');
+    } else {
+      $('host-stop-wrap').style.display = state.isHost ? '' : 'none';
+      showScreen('game');
+    }
   });
 
   channel.bind('question', ({ quiz, qIdx, total, timeLimit }) => {
@@ -282,12 +339,25 @@ async function initPusher(code) {
     clearTimers();
     state.currentQIdx = qIdx;
     state.answered    = false;
-    renderQuestion(quiz, qIdx, total, timeLimit);
-    startTimer(timeLimit);
+    if (state.spectating) {
+      $('sp-q-counter').textContent   = `Q${qIdx} / ${total}`;
+      $('sp-mode-label').textContent  = quiz.label;
+      $('sp-question-text').innerHTML = quiz.question;
+      // 새 문제 시작 → 델타 초기화
+      state.spPlayers = state.spPlayers.map(p => ({ ...p, delta: 0 }));
+      renderSpectatorBars(state.spPlayers);
+      startSpectatorTimer(timeLimit);
+    } else {
+      renderQuestion(quiz, qIdx, total, timeLimit);
+      startTimer(timeLimit);
+    }
   });
 
   channel.bind('round_end', ({ answer, ranking }) => {
     stopTimer();
+    // 관전 점수판 업데이트
+    state.spPlayers = ranking.map(p => ({ nickname: p.nickname, score: p.score, delta: p.delta || 0 }));
+    if (state.spectating) renderSpectatorBars(state.spPlayers);
     renderRoundResult(answer, ranking);
     // 4.5초 후 다음 문제 요청 (모든 클라이언트가 동시에 호출 → 서버 락으로 1번만 처리)
     state.nextTimeout = setTimeout(() => {
@@ -302,11 +372,12 @@ async function initPusher(code) {
     renderGameEnd(ranking);
   });
 
-  channel.bind('game_reset', ({ players }) => {
+  channel.bind('game_reset', ({ players, spectators = [] }) => {
     clearTimers();
     $('round-overlay').classList.remove('show');
     $('host-stop-wrap').style.display = 'none';
-    renderLobbyPlayers(players);
+    state.spPlayers = players.map(p => ({ nickname: p.nickname, score: 0, delta: 0 }));
+    renderLobbyPlayers(players, spectators);
     showScreen('lobby');
   });
 }
@@ -324,11 +395,17 @@ async function api(path, body = {}) {
 }
 
 // ── 로비 ─────────────────────────────────────────────────────────────────────
-function renderLobbyPlayers(players) {
+function renderLobbyPlayers(players, spectators = []) {
   $('player-count').textContent = `(${players.length} / 30)`;
+  const spectItem = spectators.length
+    ? `<li class="player-item" style="background:transparent;padding:5px 14px;margin-top:2px">
+         <span style="font-size:.8rem;color:var(--accent)">👁 관전:</span>
+         <span style="font-size:.8rem;color:var(--text2)">${spectators.map(s => s.nickname).join(', ')}</span>
+       </li>`
+    : '';
   $('player-list').innerHTML = players.map((p, i) =>
     `<li class="player-item">${i === 0 ? '👑 ' : ''}${p.nickname}</li>`
-  ).join('');
+  ).join('') + spectItem;
   if (state.isHost) $('start-btn').disabled = players.length < 1;
 }
 
@@ -349,10 +426,10 @@ function renderModes(modes, selected, isHost) {
   }
 }
 
-function setupLobby({ code, isHost, players, modes, selectedModes }) {
+function setupLobby({ code, isHost, players, spectators = [], modes, selectedModes }) {
   state.isHost = isHost;
   $('code-text').textContent = code;
-  renderLobbyPlayers(players);
+  renderLobbyPlayers(players, spectators);
   renderModes(modes, selectedModes, isHost);
   $('start-btn').style.display  = isHost ? '' : 'none';
   $('wait-msg').style.display   = isHost ? 'none' : '';
@@ -463,6 +540,7 @@ function startTimer(sec) {
 function stopTimer()  { clearInterval(state.timerInterval); }
 function clearTimers() {
   clearInterval(state.timerInterval);
+  clearInterval(state.spTimerInterval);
   clearTimeout(state.nextTimeout);
   clearInterval(state.cdInterval);
 }
@@ -524,24 +602,29 @@ $('create-btn').addEventListener('click', async () => {
   state.nickname = nick;
   try {
     const data = await api('/api/room/create', { nickname: nick });
-    state.playerId = data.playerId;          // 서버가 발급한 ID 사용
+    state.playerId   = data.playerId;
+    state.spectating = false;
     sessionStorage.setItem('lol-quiz-pid', data.playerId);
     await initPusher(data.code);
+    state.spPlayers = (data.players || []).map(p => ({ nickname: p.nickname, score: 0, delta: 0 }));
     setupLobby({ ...data, isHost: true });
   } catch {}
 });
 
 $('join-btn').addEventListener('click', async () => {
-  const nick = $('nickname-input').value.trim();
-  const code = $('code-input').value.trim().toUpperCase();
-  if (!nick)           return toast('닉네임을 입력해 주세요.');
+  const nick    = $('nickname-input').value.trim();
+  const code    = $('code-input').value.trim().toUpperCase();
+  const spectate = $('spectate-chk').checked;
+  if (!nick)             return toast('닉네임을 입력해 주세요.');
   if (code.length !== 5) return toast('방 코드는 5자리입니다.');
   state.nickname = nick;
   try {
-    const data = await api('/api/room/join', { code, nickname: nick });
-    state.playerId = data.playerId;
+    const data = await api('/api/room/join', { code, nickname: nick, spectate });
+    state.playerId   = data.playerId;
+    state.spectating = !!data.spectating;
     sessionStorage.setItem('lol-quiz-pid', data.playerId);
     await initPusher(data.code);
+    state.spPlayers = (data.players || []).map(p => ({ nickname: p.nickname, score: 0, delta: 0 }));
     setupLobby({ ...data, isHost: false });
   } catch {}
 });
@@ -567,6 +650,58 @@ $('stop-btn').addEventListener('click', async () => {
 });
 
 $('home-btn').addEventListener('click', () => location.reload());
+
+// ── 관전 대시보드 ─────────────────────────────────────────────────────────────
+
+function renderSpectatorBars(players) {
+  if (!players.length) {
+    $('sp-bars').innerHTML = '<p style="color:var(--text2);text-align:center;padding:12px">참가자 없음</p>';
+    return;
+  }
+  const sorted   = [...players].sort((a, b) => b.score - a.score);
+  const maxScore = Math.max(...sorted.map(p => p.score), 1);
+
+  $('sp-bars').innerHTML = sorted.map((p, i) => {
+    const pct   = Math.max(2, (p.score / maxScore) * 100).toFixed(1);
+    const delta = p.delta > 0 ? `+${p.delta}` : '';
+    const barColor = i === 0
+      ? 'linear-gradient(90deg,#C8A96E,#F0C070)'           // 1위 금색
+      : i === 1
+        ? 'linear-gradient(90deg,#8A9BA8,#B0BEC5)'         // 2위 은색
+        : i === 2
+          ? 'linear-gradient(90deg,#A0724A,#C49A6C)'        // 3위 동색
+          : 'linear-gradient(90deg,#1A6060,#0AC4B4)';       // 나머지 청록
+    return `<div class="sp-row">
+      <div class="sp-medal">${medals[i] ?? (i + 1)}</div>
+      <div class="sp-name" title="${p.nickname}">${p.nickname}</div>
+      <div class="sp-bar-wrap">
+        <div class="sp-bar" style="width:${pct}%;background:${barColor}"></div>
+      </div>
+      <div class="sp-pts">${p.score}</div>
+      <div class="sp-delta-cell" style="color:${p.delta > 0 ? 'var(--green)' : 'transparent'}">${delta || '—'}</div>
+    </div>`;
+  }).join('');
+}
+
+function startSpectatorTimer(sec) {
+  const bar = $('sp-timer-bar');
+  bar.style.transition = 'none';
+  bar.style.width      = '100%';
+  bar.style.background = 'var(--gold)';
+  $('sp-timer-display').style.color = 'var(--gold)';
+  $('sp-timer-display').textContent = sec;
+  requestAnimationFrame(() => {
+    bar.style.transition = `width ${sec}s linear`;
+    bar.style.width      = '0%';
+  });
+  let remain = sec;
+  state.spTimerInterval = setInterval(() => {
+    remain--;
+    $('sp-timer-display').textContent = Math.max(0, remain);
+    if (remain <= 5) { bar.style.background = 'var(--red)'; $('sp-timer-display').style.color = 'var(--red)'; }
+    if (remain <= 0) clearInterval(state.spTimerInterval);
+  }, 1000);
+}
 </script>
 </body>
 </html>

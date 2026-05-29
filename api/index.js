@@ -51,36 +51,42 @@ app.post('/api/room/create', async (req, res) => {
   const player   = { id: playerId, nickname, score: 0, lastDelta: 0 };
   const room = {
     code,
-    hostId:    playerId,
-    status:    'waiting',
-    players:   [player],
-    settings:  { modes: MODES.map(m => m.id) },
-    qIdx:      0,
-    quiz:      null,
-    answers:   {},
-    startTime: 0,
+    hostId:     playerId,
+    status:     'waiting',
+    players:    [player],
+    spectators: [],
+    settings:   { modes: MODES.map(m => m.id) },
+    qIdx:       0,
+    quiz:       null,
+    answers:    {},
+    startTime:  0,
   };
 
   await saveRoom(room);
-  res.json({ code, playerId, players: room.players, modes: MODES, selectedModes: room.settings.modes });
+  res.json({ code, playerId, players: room.players, spectators: [], modes: MODES, selectedModes: room.settings.modes });
 });
 
 // ── 방 참가 ───────────────────────────────────────────────────────────────────
 app.post('/api/room/join', async (req, res) => {
-  const { code, nickname } = req.body;
+  const { code, nickname, spectate } = req.body;
   const room = await getRoom(code);
-  if (!room)                         return res.status(404).json({ error: ROOM_TTL_MSG });
-  if (room.status !== 'waiting')     return res.status(400).json({ error: '이미 시작된 게임입니다.' });
-  if (room.players.length >= MAX_PLAYERS)
-                                     return res.status(400).json({ error: `방이 가득 찼습니다 (최대 ${MAX_PLAYERS}명).` });
+  if (!room)                                           return res.status(404).json({ error: ROOM_TTL_MSG });
+  if (room.status !== 'waiting')                       return res.status(400).json({ error: '이미 시작된 게임입니다.' });
+  if (!spectate && room.players.length >= MAX_PLAYERS) return res.status(400).json({ error: `방이 가득 찼습니다 (최대 ${MAX_PLAYERS}명).` });
 
   const playerId = genId();
-  const player   = { id: playerId, nickname, score: 0, lastDelta: 0 };
-  room.players.push(player);
+  room.spectators = room.spectators || [];
+
+  if (spectate) {
+    room.spectators.push({ id: playerId, nickname });
+  } else {
+    room.players.push({ id: playerId, nickname, score: 0, lastDelta: 0 });
+  }
   await saveRoom(room);
 
-  await trigger(code, 'player_update', { players: room.players });
-  res.json({ code, playerId, players: room.players, modes: MODES, selectedModes: room.settings.modes });
+  const spectators = room.spectators;
+  await trigger(code, 'player_update', { players: room.players, spectators });
+  res.json({ code, playerId, players: room.players, spectators, modes: MODES, selectedModes: room.settings.modes, spectating: !!spectate });
 });
 
 // ── 모드 설정 ─────────────────────────────────────────────────────────────────
@@ -204,7 +210,7 @@ app.post('/api/game/restart', async (req, res) => {
 
   await resetScores(room.code, room.players);
   await saveRoom(room);
-  await trigger(code, 'game_reset', { players: room.players });
+  await trigger(code, 'game_reset', { players: room.players, spectators: room.spectators || [] });
   res.json({ ok: true });
 });
 
