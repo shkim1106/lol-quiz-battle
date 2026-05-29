@@ -113,6 +113,8 @@
     padding: 12px 24px; border-radius: 8px; font-size: .95rem; z-index: 200;
     opacity: 0; transition: opacity .3s; pointer-events: none; }
   #toast.show { opacity: 1; }
+  .btn-danger { background: transparent; border: 1px solid var(--red); color: var(--red); font-size:.88rem; padding:10px; }
+  .btn-danger:hover { background: rgba(231,76,60,.1); }
   .mt8{margin-top:8px} .mt12{margin-top:12px} .mt16{margin-top:16px} .mt24{margin-top:24px}
   .gap8{display:flex;flex-direction:column;gap:8px}
   small{color:var(--text2);font-size:.82rem} em{color:var(--text);font-style:italic} b{color:var(--white)}
@@ -193,6 +195,9 @@
     <h3>🏅 현재 순위</h3>
     <ul id="live-ranking" class="player-list mt8"></ul>
   </div>
+  <div id="host-stop-wrap" style="display:none;width:100%;max-width:640px;margin-top:12px">
+    <button class="btn btn-danger" id="stop-btn">⏹ 게임 중지하고 대기실로</button>
+  </div>
 </div>
 
 <!-- 게임 종료 -->
@@ -268,6 +273,7 @@ async function initPusher(code) {
 
   channel.bind('game_started', () => {
     $('round-overlay').classList.remove('show');
+    $('host-stop-wrap').style.display = state.isHost ? '' : 'none';
     showScreen('game');
   });
 
@@ -292,11 +298,14 @@ async function initPusher(code) {
   channel.bind('game_end', ({ ranking }) => {
     clearTimers();
     $('round-overlay').classList.remove('show');
+    $('host-stop-wrap').style.display = 'none';
     renderGameEnd(ranking);
   });
 
   channel.bind('game_reset', ({ players }) => {
     clearTimers();
+    $('round-overlay').classList.remove('show');
+    $('host-stop-wrap').style.display = 'none';
     renderLobbyPlayers(players);
     showScreen('lobby');
   });
@@ -549,6 +558,11 @@ $('start-btn').addEventListener('click', async () => {
 });
 
 $('restart-btn').addEventListener('click', async () => {
+  try { await api('/api/game/restart', { code: state.code }); } catch {}
+});
+
+$('stop-btn').addEventListener('click', async () => {
+  if (!confirm('게임을 중지하고 대기실로 돌아갈까요?\n현재 점수는 초기화됩니다.')) return;
   try { await api('/api/game/restart', { code: state.code }); } catch {}
 });
 
